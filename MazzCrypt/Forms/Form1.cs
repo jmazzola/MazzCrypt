@@ -356,5 +356,17 @@ namespace MazzCrypt
             MazzCrypt.Forms.About a = new MazzCrypt.Forms.About();
             a.Show();
         }
+
+        private void applyEXECompilerArgsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // .EXE compilation
+            txtCompilerArgs.Text = "/EHsc /Od /MT *.cpp kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /link /FORCE:MULTIPLE /OUT:Mazz.exe";
+        }
+
+        private void applyDLLCompilerArgsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // .DLL compilation
+            txtCompilerArgs.Text = "/EHsc /Od /MT *.cpp kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /link /FORCE:MULTIPLE /OUT:Mazz.dll";
+        }
     }
 }

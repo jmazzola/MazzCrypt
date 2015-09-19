@@ -54,6 +54,9 @@
             this.btn_generateDecryptClass = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.applyEXECompilerArgsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.applyDLLCompilerArgsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.msMain.SuspendLayout();
             this.gbOptions.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.num_Copies)).BeginInit();
@@ -65,6 +68,7 @@
             this.msMain.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.msMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
+            this.toolsToolStripMenuItem,
             this.btnAbout});
             this.msMain.Location = new System.Drawing.Point(0, 0);
             this.msMain.Name = "msMain";
@@ -83,7 +87,7 @@
             // btnOpenZip
             // 
             this.btnOpenZip.Name = "btnOpenZip";
-            this.btnOpenZip.Size = new System.Drawing.Size(175, 24);
+            this.btnOpenZip.Size = new System.Drawing.Size(141, 24);
             this.btnOpenZip.Text = "Open .zip";
             this.btnOpenZip.Click += new System.EventHandler(this.btnOpenZip_Click);
             // 
@@ -319,6 +323,29 @@
             this.textBox3.Text = "String to Encrypt";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // toolsToolStripMenuItem
+            // 
+            this.toolsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.applyEXECompilerArgsToolStripMenuItem,
+            this.applyDLLCompilerArgsToolStripMenuItem});
+            this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
+            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(57, 24);
+            this.toolsToolStripMenuItem.Text = "Tools";
+            // 
+            // applyEXECompilerArgsToolStripMenuItem
+            // 
+            this.applyEXECompilerArgsToolStripMenuItem.Name = "applyEXECompilerArgsToolStripMenuItem";
+            this.applyEXECompilerArgsToolStripMenuItem.Size = new System.Drawing.Size(248, 24);
+            this.applyEXECompilerArgsToolStripMenuItem.Text = "Apply .EXE Compiler Args";
+            this.applyEXECompilerArgsToolStripMenuItem.Click += new System.EventHandler(this.applyEXECompilerArgsToolStripMenuItem_Click);
+            // 
+            // applyDLLCompilerArgsToolStripMenuItem
+            // 
+            this.applyDLLCompilerArgsToolStripMenuItem.Name = "applyDLLCompilerArgsToolStripMenuItem";
+            this.applyDLLCompilerArgsToolStripMenuItem.Size = new System.Drawing.Size(248, 24);
+            this.applyDLLCompilerArgsToolStripMenuItem.Text = "Apply .DLL Compiler Args";
+            this.applyDLLCompilerArgsToolStripMenuItem.Click += new System.EventHandler(this.applyDLLCompilerArgsToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -385,6 +412,9 @@
         private System.Windows.Forms.NumericUpDown num_Copies;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.CheckBox chkBox_PromptMsg;
+        private System.Windows.Forms.ToolStripMenuItem toolsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem applyEXECompilerArgsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem applyDLLCompilerArgsToolStripMenuItem;
     }
 }
 
