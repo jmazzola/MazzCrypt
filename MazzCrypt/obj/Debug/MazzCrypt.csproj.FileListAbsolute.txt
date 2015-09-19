@@ -1,0 +1,10 @@
+F:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\bin\Debug\MazzCrypt.exe.config
+F:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\bin\Debug\MazzCrypt.exe
+F:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\bin\Debug\MazzCrypt.pdb
+F:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\obj\Debug\MazzCrypt.Form1.resources
+F:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\obj\Debug\MazzCrypt.Properties.Resources.resources
+F:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\obj\Debug\MazzCrypt.csproj.GenerateResource.Cache
+F:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\obj\Debug\MazzCrypt.exe
+F:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\obj\Debug\MazzCrypt.pdb
+F:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\obj\Debug\MazzCrypt.csprojResolveAssemblyReference.cache
