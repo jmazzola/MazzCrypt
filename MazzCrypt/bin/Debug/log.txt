@@ -1,0 +1,60 @@
+﻿2016-08-18 20:12:23.003 DEBUG [6156] [Init@273] ======= START =======
+2016-08-18 20:12:23.004 DEBUG [6156] [Init@280] Zerowrite Initiated.
+2016-08-18 20:12:23.008 DEBUG [6156] [Init@327] CSGO has been loaded | ProcessID: 11252
+2016-08-18 20:12:23.014 DEBUG [6156] [Init@347] settings.ini was successfully loaded!
+2016-08-18 20:12:23.018 DEBUG [6156] [Init@374] client.dll was detected | Base: 1c2d0000 Size: 50ae000
+2016-08-18 20:12:23.021 DEBUG [6156] [Init@381] engine.dll was detected | Base: d090000 Size: 8e2000
+2016-08-18 20:12:23.022 DEBUG [6156] [Offsets::Init@17] Initializing Offsets | Signatures
+2016-08-18 20:12:23.129 DEBUG [6156] [Offsets::Init@69] EntityList : 0x4a56d04
+2016-08-18 20:12:23.223 DEBUG [6156] [Offsets::Init@98] LocalPlayer : 0xa3943c
+2016-08-18 20:12:23.245 DEBUG [6156] [Offsets::Init@123] EnginePtr : 0x5bb2c4
+2016-08-18 20:12:23.245 DEBUG [6156] [Offsets::Init@127] Viewangles : 0x4d0c
+2016-08-18 20:12:23.338 DEBUG [6156] [Offsets::Init@148] CrosshairIndex : 0xaa44
+2016-08-18 20:12:23.412 DEBUG [6156] [Offsets::Init@166] Viewmatrix : 0x4a488a4
+2016-08-18 20:12:23.509 DEBUG [6156] [Offsets::Init@193] PunchAngles : 0x3018
+2016-08-18 20:12:23.613 DEBUG [6156] [Offsets::Init@218] CanReload : 0x3235
+2016-08-18 20:12:23.730 DEBUG [6156] [Offsets::Init@245] NetvarClasses : 0x1cd26e7c
+2016-08-18 20:12:23.742 DEBUG [6156] [Offsets::Init@264] PlayerInfo : 0x523c
+2016-08-18 20:12:23.820 DEBUG [6156] [Offsets::Init@288] Attack : 0x2e96cf4
+2016-08-18 20:12:23.910 DEBUG [6156] [Offsets::Init@313] Sensitivity Pointer : 0xa3ec18
+2016-08-18 20:12:23.996 DEBUG [6156] [Offsets::Init@336] InGameSensitivity : 0xa3ec44
+2016-08-18 20:12:24.074 DEBUG [6156] [Offsets::Init@362] MoveType : 0x258
+2016-08-18 20:12:24.150 DEBUG [6156] [Offsets::Init@381] m_pStudioHdr : 0x293c
+2016-08-18 20:12:24.165 DEBUG [6156] [Offsets::Init@397] MapName : 0x284
+2016-08-18 20:12:24.166 DEBUG [6156] [Offsets::Init@415] Game Directory String : 0x12b5f70
+2016-08-18 20:12:24.240 DEBUG [6156] [Offsets::Init@435] CGlobalVars : 0xa2d364
+2016-08-18 20:12:24.338 DEBUG [6156] [Offsets::Init@463] m_flFlashBangTime : 0xa2e4
+2016-08-18 20:12:24.338 DEBUG [6156] [Offsets::Init@470] Finished initializing Offsets | Signatures!
+2016-08-18 20:12:24.342 DEBUG [6156] [Offsets::LoadNetvars@482] Starting to Load Netvars
+2016-08-18 20:12:24.388 DEBUG [6156] [Offsets::LoadNetvars@531] Finished loading Netvars
+2016-08-18 20:12:24.388 DEBUG [6156] [Init@399] Bases and Netvars were loaded and populated!
+2016-08-18 20:12:24.388 DEBUG [6156] [Init@408] Starting threads..
+2016-08-18 20:12:24.388 DEBUG [496] [UpdateTick@136] UpdateTick thread started!
+2016-08-18 20:12:24.388 DEBUG [6156] [LaunchThreads@98] Daemon thread UpdateTick launched.
+2016-08-18 20:12:24.389 DEBUG [8816] [BSPHandler@14] BSPHandler thread started!
+2016-08-18 20:12:24.389 DEBUG [6156] [LaunchThreads@109] Daemon thread BSPHandler launched.
+2016-08-18 20:12:24.389 DEBUG [8816] [BSPHandler@59] Different map detected! Old Map: No Map Detected | New Map: workshop/141243798/aim_ag_texture2
+2016-08-18 20:12:24.389 DEBUG [10816] [Triggerbot::Start@979] Triggerbot thread started!
+2016-08-18 20:12:24.389 DEBUG [6156] [LaunchThreads@119] Daemon thread Triggerbot launched.
+2016-08-18 20:12:24.389 DEBUG [10600] [RCS::Start@27] RCS thread started!
+2016-08-18 20:12:24.389 DEBUG [6156] [LaunchThreads@127] Daemon thread RCS launched.
+2016-08-18 20:12:24.403 DEBUG [8816] [BSPHandler@69] BSP has loaded with workshop/141243798/aim_ag_texture2 successfully!
+2016-08-18 20:12:26.886 DEBUG [7876] [Init@273] ======= START =======
+2016-08-18 20:12:26.886 DEBUG [7876] [Init@280] Zerowrite Initiated.
+2016-08-18 20:12:26.890 DEBUG [7876] [Init@327] CSGO has been loaded | ProcessID: 11252
+2016-08-18 20:12:26.895 DEBUG [7876] [Init@347] settings.ini was successfully loaded!
+2016-08-18 20:12:26.899 DEBUG [7876] [Init@374] client.dll was detected | Base: 1c2d0000 Size: 50ae000
+2016-08-18 20:12:26.902 DEBUG [7876] [Init@381] engine.dll was detected | Base: d090000 Size: 8e2000
+2016-08-18 20:12:26.902 DEBUG [7876] [Offsets::Init@17] Initializing Offsets | Signatures
+2016-08-18 20:12:26.982 DEBUG [7876] [Offsets::Init@69] EntityList : 0x4a56d04
+2016-08-18 20:12:27.067 DEBUG [7876] [Offsets::Init@98] LocalPlayer : 0xa3943c
+2016-08-18 20:12:27.082 DEBUG [7876] [Offsets::Init@123] EnginePtr : 0x5bb2c4
+2016-08-18 20:12:27.082 DEBUG [7876] [Offsets::Init@127] Viewangles : 0x4d0c
+2016-08-18 20:12:27.163 DEBUG [7876] [Offsets::Init@148] CrosshairIndex : 0xaa44
+2016-08-18 20:12:27.244 DEBUG [7876] [Offsets::Init@166] Viewmatrix : 0x4a488a4
+2016-08-18 20:12:27.339 DEBUG [7876] [Offsets::Init@193] PunchAngles : 0x3018
+2016-08-18 20:12:27.438 DEBUG [7876] [Offsets::Init@218] CanReload : 0x3235
+2016-08-18 20:12:27.556 DEBUG [7876] [Offsets::Init@245] NetvarClasses : 0x1cd26e7c
+2016-08-18 20:12:27.570 DEBUG [7876] [Offsets::Init@264] PlayerInfo : 0x523c
+2016-08-18 20:12:27.656 DEBUG [7876] [Offsets::Init@288] Attack : 0x2e96cf4
+2016-08-18 20:12:27.736 DEBUG [7876] [Offsets::Init@313] Sensitivity Pointer : 0xa3ec18

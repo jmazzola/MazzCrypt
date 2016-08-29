@@ -1,0 +1,98 @@
+﻿2016-08-29 16:55:05.545 DEBUG [13216] [Init@292] ======= START =======
+2016-08-29 16:55:05.545 DEBUG [13216] [Init@297] SmurfStomper: Revamped Initiated.
+2016-08-29 16:55:05.551 DEBUG [13216] [Init@408] CSGO has been loaded | ProcessID: 5844
+2016-08-29 16:55:05.559 DEBUG [13216] [Init@436] settings.ini was successfully loaded!
+2016-08-29 16:55:05.560 DEBUG [13216] [Init@465] settings.ini was successfully loaded!
+2016-08-29 16:55:05.566 DEBUG [13216] [Init@495] client.dll was detected | Base: 0x1b530000 Size: 0x50af000
+2016-08-29 16:55:05.570 DEBUG [13216] [Init@502] engine.dll was detected | Base: 0xda20000 Size: 0x8e2000
+2016-08-29 16:55:05.570 DEBUG [13216] [Offsets::Init@13] Initializing Offsets | Signatures
+2016-08-29 16:55:06.150 DEBUG [13216] [Offsets::Init@59] EntityList : 4a57ea4
+2016-08-29 16:55:06.250 DEBUG [13216] [Offsets::Init@85] LocalPlayer : a3a43c
+2016-08-29 16:55:06.751 DEBUG [13216] [Offsets::Init@114] EnginePtr : 5bb2c4
+2016-08-29 16:55:06.751 DEBUG [13216] [Offsets::Init@118] Viewangles : 4d0c
+2016-08-29 16:55:06.843 DEBUG [13216] [Offsets::Init@145] CrosshairIndex : aa54
+2016-08-29 16:55:07.003 DEBUG [13216] [Offsets::Init@173] Viewmatrix : 4a49a44
+2016-08-29 16:55:07.097 DEBUG [13216] [Offsets::Init@201] PunchAngles : 3018
+2016-08-29 16:55:07.215 DEBUG [13216] [Offsets::Init@222] CanReload : 3235
+2016-08-29 16:55:07.352 DEBUG [13216] [Offsets::Init@245] NetvarClasses : 1bf87ea0
+2016-08-29 16:55:07.370 DEBUG [13216] [Offsets::Init@278] PlayerInfo : 523c
+2016-08-29 16:55:07.461 DEBUG [13216] [Offsets::Init@307] Attack : 2e97ec4
+2016-08-29 16:55:07.568 DEBUG [13216] [Offsets::Init@325] Jump : 4eed318
+2016-08-29 16:55:07.658 DEBUG [13216] [Offsets::Init@342] MoveType : 258
+2016-08-29 16:55:07.742 DEBUG [13216] [Offsets::Init@369] m_pStudioHdr : 293c
+2016-08-29 16:55:07.761 DEBUG [13216] [Offsets::Init@387] MapName : 284
+2016-08-29 16:55:07.768 DEBUG [13216] [Offsets::Init@405] Game Directory String : 1a5f70
+2016-08-29 16:55:07.788 DEBUG [13216] [Offsets::Init@422] bSendPacket : db01347
+2016-08-29 16:55:07.906 DEBUG [13216] [Offsets::Init@444] frameBuf : 1b856fe7
+2016-08-29 16:55:07.927 DEBUG [13216] [Offsets::Init@462] ClientCMD : dadcce0
+2016-08-29 16:55:08.026 DEBUG [13216] [Offsets::Init@488] GlowArray : 4f6dad4
+2016-08-29 16:55:08.128 DEBUG [13216] [Offsets::Init@508] GlobalVars : a2e364
+2016-08-29 16:55:08.274 DEBUG [13216] [Offsets::Init@528] GameResources : 2e960ec
+2016-08-29 16:55:08.382 DEBUG [13216] [Offsets::Init@548] m_flFlashBangTime : 0xa2e4
+2016-08-29 16:55:08.493 DEBUG [13216] [Offsets::Init@577] GameRulesProxyPtr : 2e96118
+2016-08-29 16:55:08.527 DEBUG [13216] [Offsets::Init@595] InputSystemPtr : e266e00
+2016-08-29 16:55:08.527 DEBUG [13216] [Offsets::Init@599] Finished initializing Offsets | Signatures!
+2016-08-29 16:55:08.532 DEBUG [13216] [Offsets::LoadNetvars@606] Starting to Load Netvars
+2016-08-29 16:55:08.627 DEBUG [13216] [Offsets::LoadNetvars@696] Finished loading Netvars
+2016-08-29 16:55:08.627 DEBUG [13216] [Init@531] Bases and Netvars were loaded and populated!
+2016-08-29 16:55:08.627 DEBUG [13216] [LaunchThreads@206] Starting threads..
+2016-08-29 16:55:08.629 DEBUG [13216] [LaunchThreads@218] Daemon thread UpdateTick launched.
+2016-08-29 16:55:08.629 DEBUG [2500] [UpdateTick@59] UpdateTick thread started!
+2016-08-29 16:55:08.630 DEBUG [13216] [LaunchThreads@230] Daemon thread RCS launched.
+2016-08-29 16:55:08.630 DEBUG [13216] [LaunchThreads@240] Daemon thread Bhop launched.
+2016-08-29 16:55:08.630 DEBUG [13216] [LaunchThreads@257] Daemon thread Fakelag launched.
+2016-08-29 16:55:08.631 DEBUG [13216] [LaunchThreads@266] Daemon thread ESP launched.
+2016-08-29 16:55:08.631 DEBUG [13216] [LaunchThreads@277] Daemon thread Chatspam launched.
+2016-08-29 16:55:42.499 DEBUG [13216] [Loop@612] Chatspam is now ON
+2016-08-29 16:56:08.012 DEBUG [13216] [Loop@594] Fakelag is now ON
+2016-08-29 16:56:27.017 DEBUG [13216] [Loop@632] Chatspam's advertisement index was reset
+2016-08-29 16:56:53.727 DEBUG [13216] [Loop@594] Fakelag is now OFF
+2016-08-29 16:56:55.552 DEBUG [13216] [Loop@594] Fakelag is now ON
+2016-08-29 16:56:57.308 DEBUG [13216] [Loop@594] Fakelag is now OFF
+2016-08-29 16:57:45.378 DEBUG [13216] [Loop@594] Fakelag is now ON
+2016-08-29 16:58:27.122 ERROR [2500] [Memory::GetModuleBase@129] Failed to get the module base address of engine.dll !
+2016-08-29 17:19:46.244 DEBUG [13168] [Init@291] ======= START =======
+2016-08-29 17:19:46.245 DEBUG [13168] [Init@296] SmurfStomper: Revamped Initiated.
+2016-08-29 17:19:46.250 DEBUG [13168] [Init@400] CSGO has been loaded | ProcessID: 5844
+2016-08-29 17:19:46.257 DEBUG [13168] [Init@426] settings.ini was successfully loaded!
+2016-08-29 17:19:46.258 DEBUG [13168] [Init@456] settings.ini was successfully loaded!
+2016-08-29 17:19:46.264 DEBUG [13168] [Init@487] client.dll was detected | Base: 0x1b530000 Size: 0x50af000
+2016-08-29 17:19:46.267 DEBUG [13168] [Init@494] engine.dll was detected | Base: 0xda20000 Size: 0x8e2000
+2016-08-29 17:19:46.268 DEBUG [13168] [Offsets::Init@13] Initializing Offsets | Signatures
+2016-08-29 17:19:46.400 DEBUG [13168] [Offsets::Init@55] EntityList : 4a57ea4
+2016-08-29 17:19:46.486 DEBUG [13168] [Offsets::Init@79] LocalPlayer : a3a43c
+2016-08-29 17:19:46.534 DEBUG [13168] [Offsets::Init@106] EnginePtr : 5bb2c4
+2016-08-29 17:19:46.534 DEBUG [13168] [Offsets::Init@111] Viewangles : 4d0c
+2016-08-29 17:19:46.634 DEBUG [13168] [Offsets::Init@136] CrosshairIndex : aa54
+2016-08-29 17:19:46.794 DEBUG [13168] [Offsets::Init@163] Viewmatrix : 4a49a44
+2016-08-29 17:19:46.893 DEBUG [13168] [Offsets::Init@189] PunchAngles : 3018
+2016-08-29 17:19:47.000 DEBUG [13168] [Offsets::Init@218] CanReload : 3235
+2016-08-29 17:19:47.126 DEBUG [13168] [Offsets::Init@241] NetvarClasses : 1bf87ea0
+2016-08-29 17:19:47.138 DEBUG [13168] [Offsets::Init@273] PlayerInfo : 523c
+2016-08-29 17:19:47.208 DEBUG [13168] [Offsets::Init@306] Attack : 2e97ec4
+2016-08-29 17:19:47.283 DEBUG [13168] [Offsets::Init@328] Jump : 4eed318
+2016-08-29 17:19:47.346 DEBUG [13168] [Offsets::Init@346] MoveType : 258
+2016-08-29 17:19:47.407 DEBUG [13168] [Offsets::Init@368] m_pStudioHdr : 293c
+2016-08-29 17:19:47.420 DEBUG [13168] [Offsets::Init@386] MapName : 284
+2016-08-29 17:19:47.421 DEBUG [13168] [Offsets::Init@404] Game Directory String : 1a5f70
+2016-08-29 17:19:47.434 DEBUG [13168] [Offsets::Init@421] bSendPacket : db01347
+2016-08-29 17:19:47.510 DEBUG [13168] [Offsets::Init@445] frameBuf : 1b856fe7
+2016-08-29 17:19:47.525 DEBUG [13168] [Offsets::Init@463] ClientCMD : dadcce0
+2016-08-29 17:19:47.597 DEBUG [13168] [Offsets::Init@489] GlowArray : 4f6dad4
+2016-08-29 17:19:47.663 DEBUG [13168] [Offsets::Init@507] GlobalVars : a2e364
+2016-08-29 17:19:47.772 DEBUG [13168] [Offsets::Init@527] GameResources : 2e960ec
+2016-08-29 17:19:47.852 DEBUG [13168] [Offsets::Init@546] m_flFlashBangTime : 0xa2e4
+2016-08-29 17:19:47.938 DEBUG [13168] [Offsets::Init@575] GameRulesProxyPtr : 2e96118
+2016-08-29 17:19:47.964 DEBUG [13168] [Offsets::Init@595] InputSystemPtr : e266e00
+2016-08-29 17:19:47.964 DEBUG [13168] [Offsets::Init@599] Finished initializing Offsets | Signatures!
+2016-08-29 17:19:47.967 DEBUG [13168] [Offsets::LoadNetvars@606] Starting to Load Netvars
+2016-08-29 17:19:48.050 DEBUG [13168] [Offsets::LoadNetvars@698] Finished loading Netvars
+2016-08-29 17:19:48.050 DEBUG [13168] [Init@520] Bases and Netvars were loaded and populated!
+2016-08-29 17:19:48.051 DEBUG [13168] [LaunchThreads@210] Starting threads..
+2016-08-29 17:19:48.053 DEBUG [10048] [UpdateTick@59] UpdateTick thread started!
+2016-08-29 17:19:48.053 DEBUG [13168] [LaunchThreads@225] Daemon thread UpdateTick launched.
+2016-08-29 17:19:48.053 DEBUG [13168] [LaunchThreads@235] Daemon thread RCS launched.
+2016-08-29 17:19:48.053 DEBUG [13168] [LaunchThreads@245] Daemon thread Bhop launched.
+2016-08-29 17:19:48.053 DEBUG [13168] [LaunchThreads@260] Daemon thread Fakelag launched.
+2016-08-29 17:19:48.053 DEBUG [13168] [LaunchThreads@270] Daemon thread ESP launched.
+2016-08-29 17:19:48.054 DEBUG [13168] [LaunchThreads@279] Daemon thread Chatspam launched.

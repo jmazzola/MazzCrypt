@@ -31,6 +31,11 @@
             this.msMain = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnOpenZip = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.applyEXECompilerArgsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.applyDLLCompilerArgsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.applyD3DEXECompilerArgsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.applyEXEWithPDBFileGenerationCompilerArgsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.treeViewHack = new System.Windows.Forms.TreeView();
@@ -54,9 +59,7 @@
             this.btn_generateDecryptClass = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.applyEXECompilerArgsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.applyDLLCompilerArgsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.testShitHereToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.msMain.SuspendLayout();
             this.gbOptions.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.num_Copies)).BeginInit();
@@ -72,7 +75,8 @@
             this.btnAbout});
             this.msMain.Location = new System.Drawing.Point(0, 0);
             this.msMain.Name = "msMain";
-            this.msMain.Size = new System.Drawing.Size(419, 28);
+            this.msMain.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.msMain.Size = new System.Drawing.Size(314, 24);
             this.msMain.TabIndex = 0;
             this.msMain.Text = "menuStrip1";
             // 
@@ -81,44 +85,87 @@
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.btnOpenZip});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(44, 24);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // btnOpenZip
             // 
             this.btnOpenZip.Name = "btnOpenZip";
-            this.btnOpenZip.Size = new System.Drawing.Size(141, 24);
+            this.btnOpenZip.Size = new System.Drawing.Size(124, 22);
             this.btnOpenZip.Text = "Open .zip";
             this.btnOpenZip.Click += new System.EventHandler(this.btnOpenZip_Click);
+            // 
+            // toolsToolStripMenuItem
+            // 
+            this.toolsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.applyEXECompilerArgsToolStripMenuItem,
+            this.applyDLLCompilerArgsToolStripMenuItem,
+            this.applyD3DEXECompilerArgsToolStripMenuItem,
+            this.applyEXEWithPDBFileGenerationCompilerArgsToolStripMenuItem,
+            this.testShitHereToolStripMenuItem});
+            this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
+            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(47, 20);
+            this.toolsToolStripMenuItem.Text = "Tools";
+            // 
+            // applyEXECompilerArgsToolStripMenuItem
+            // 
+            this.applyEXECompilerArgsToolStripMenuItem.Name = "applyEXECompilerArgsToolStripMenuItem";
+            this.applyEXECompilerArgsToolStripMenuItem.Size = new System.Drawing.Size(342, 22);
+            this.applyEXECompilerArgsToolStripMenuItem.Text = "Apply .EXE Compiler Args";
+            this.applyEXECompilerArgsToolStripMenuItem.Click += new System.EventHandler(this.applyEXECompilerArgsToolStripMenuItem_Click);
+            // 
+            // applyDLLCompilerArgsToolStripMenuItem
+            // 
+            this.applyDLLCompilerArgsToolStripMenuItem.Name = "applyDLLCompilerArgsToolStripMenuItem";
+            this.applyDLLCompilerArgsToolStripMenuItem.Size = new System.Drawing.Size(342, 22);
+            this.applyDLLCompilerArgsToolStripMenuItem.Text = "Apply .DLL Compiler Args";
+            this.applyDLLCompilerArgsToolStripMenuItem.Click += new System.EventHandler(this.applyDLLCompilerArgsToolStripMenuItem_Click);
+            // 
+            // applyD3DEXECompilerArgsToolStripMenuItem
+            // 
+            this.applyD3DEXECompilerArgsToolStripMenuItem.Name = "applyD3DEXECompilerArgsToolStripMenuItem";
+            this.applyD3DEXECompilerArgsToolStripMenuItem.Size = new System.Drawing.Size(342, 22);
+            this.applyD3DEXECompilerArgsToolStripMenuItem.Text = "Apply D3D .EXE Compiler Args";
+            this.applyD3DEXECompilerArgsToolStripMenuItem.Click += new System.EventHandler(this.applyD3DEXECompilerArgsToolStripMenuItem_Click);
+            // 
+            // applyEXEWithPDBFileGenerationCompilerArgsToolStripMenuItem
+            // 
+            this.applyEXEWithPDBFileGenerationCompilerArgsToolStripMenuItem.Name = "applyEXEWithPDBFileGenerationCompilerArgsToolStripMenuItem";
+            this.applyEXEWithPDBFileGenerationCompilerArgsToolStripMenuItem.Size = new System.Drawing.Size(342, 22);
+            this.applyEXEWithPDBFileGenerationCompilerArgsToolStripMenuItem.Text = "Apply .EXE with PDB File Generation Compiler Args";
+            this.applyEXEWithPDBFileGenerationCompilerArgsToolStripMenuItem.Click += new System.EventHandler(this.applyEXEWithPDBFileGenerationCompilerArgsToolStripMenuItem_Click);
             // 
             // btnAbout
             // 
             this.btnAbout.Name = "btnAbout";
-            this.btnAbout.Size = new System.Drawing.Size(62, 24);
+            this.btnAbout.Size = new System.Drawing.Size(52, 20);
             this.btnAbout.Text = "About";
             this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 45);
+            this.label1.Location = new System.Drawing.Point(9, 37);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 17);
+            this.label1.Size = new System.Drawing.Size(0, 13);
             this.label1.TabIndex = 1;
             // 
             // treeViewHack
             // 
-            this.treeViewHack.Location = new System.Drawing.Point(12, 45);
+            this.treeViewHack.Location = new System.Drawing.Point(9, 37);
+            this.treeViewHack.Margin = new System.Windows.Forms.Padding(2);
             this.treeViewHack.Name = "treeViewHack";
-            this.treeViewHack.Size = new System.Drawing.Size(400, 219);
+            this.treeViewHack.Size = new System.Drawing.Size(301, 179);
             this.treeViewHack.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(150, 28);
+            this.label2.Location = new System.Drawing.Point(112, 23);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 17);
+            this.label2.Size = new System.Drawing.Size(78, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Hack Hierachy";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -128,9 +175,10 @@
             this.chkboxDebug.AutoSize = true;
             this.chkboxDebug.Checked = true;
             this.chkboxDebug.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkboxDebug.Location = new System.Drawing.Point(6, 21);
+            this.chkboxDebug.Location = new System.Drawing.Point(4, 17);
+            this.chkboxDebug.Margin = new System.Windows.Forms.Padding(2);
             this.chkboxDebug.Name = "chkboxDebug";
-            this.chkboxDebug.Size = new System.Drawing.Size(165, 21);
+            this.chkboxDebug.Size = new System.Drawing.Size(128, 17);
             this.chkboxDebug.TabIndex = 4;
             this.chkboxDebug.Text = "Show compiler output";
             this.chkboxDebug.UseVisualStyleBackColor = true;
@@ -142,9 +190,11 @@
             this.gbOptions.Controls.Add(this.label5);
             this.gbOptions.Controls.Add(this.chkBoxDeleteFolders);
             this.gbOptions.Controls.Add(this.chkboxDebug);
-            this.gbOptions.Location = new System.Drawing.Point(12, 329);
+            this.gbOptions.Location = new System.Drawing.Point(9, 267);
+            this.gbOptions.Margin = new System.Windows.Forms.Padding(2);
             this.gbOptions.Name = "gbOptions";
-            this.gbOptions.Size = new System.Drawing.Size(400, 102);
+            this.gbOptions.Padding = new System.Windows.Forms.Padding(2);
+            this.gbOptions.Size = new System.Drawing.Size(300, 83);
             this.gbOptions.TabIndex = 10;
             this.gbOptions.TabStop = false;
             this.gbOptions.Text = "Options";
@@ -154,23 +204,25 @@
             this.chkBox_PromptMsg.AutoSize = true;
             this.chkBox_PromptMsg.Checked = true;
             this.chkBox_PromptMsg.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkBox_PromptMsg.Location = new System.Drawing.Point(6, 48);
+            this.chkBox_PromptMsg.Location = new System.Drawing.Point(4, 39);
+            this.chkBox_PromptMsg.Margin = new System.Windows.Forms.Padding(2);
             this.chkBox_PromptMsg.Name = "chkBox_PromptMsg";
-            this.chkBox_PromptMsg.Size = new System.Drawing.Size(159, 21);
+            this.chkBox_PromptMsg.Size = new System.Drawing.Size(123, 17);
             this.chkBox_PromptMsg.TabIndex = 8;
             this.chkBox_PromptMsg.Text = "Prompt MessageBox";
             this.chkBox_PromptMsg.UseVisualStyleBackColor = true;
             // 
             // num_Copies
             // 
-            this.num_Copies.Location = new System.Drawing.Point(137, 74);
+            this.num_Copies.Location = new System.Drawing.Point(103, 60);
+            this.num_Copies.Margin = new System.Windows.Forms.Padding(2);
             this.num_Copies.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
             this.num_Copies.Name = "num_Copies";
-            this.num_Copies.Size = new System.Drawing.Size(120, 22);
+            this.num_Copies.Size = new System.Drawing.Size(90, 20);
             this.num_Copies.TabIndex = 7;
             this.num_Copies.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.num_Copies.Value = new decimal(new int[] {
@@ -182,9 +234,10 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(8, 74);
+            this.label5.Location = new System.Drawing.Point(6, 60);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(123, 17);
+            this.label5.Size = new System.Drawing.Size(93, 13);
             this.label5.TabIndex = 6;
             this.label5.Text = "Number of copies:";
             // 
@@ -193,18 +246,20 @@
             this.chkBoxDeleteFolders.AutoSize = true;
             this.chkBoxDeleteFolders.Checked = true;
             this.chkBoxDeleteFolders.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkBoxDeleteFolders.Location = new System.Drawing.Point(181, 21);
+            this.chkBoxDeleteFolders.Location = new System.Drawing.Point(136, 17);
+            this.chkBoxDeleteFolders.Margin = new System.Windows.Forms.Padding(2);
             this.chkBoxDeleteFolders.Name = "chkBoxDeleteFolders";
-            this.chkBoxDeleteFolders.Size = new System.Drawing.Size(122, 21);
+            this.chkBoxDeleteFolders.Size = new System.Drawing.Size(94, 17);
             this.chkBoxDeleteFolders.TabIndex = 5;
             this.chkBoxDeleteFolders.Text = "Delete Folders";
             this.chkBoxDeleteFolders.UseVisualStyleBackColor = true;
             // 
             // btnCompile
             // 
-            this.btnCompile.Location = new System.Drawing.Point(10, 603);
+            this.btnCompile.Location = new System.Drawing.Point(8, 490);
+            this.btnCompile.Margin = new System.Windows.Forms.Padding(2);
             this.btnCompile.Name = "btnCompile";
-            this.btnCompile.Size = new System.Drawing.Size(402, 54);
+            this.btnCompile.Size = new System.Drawing.Size(302, 44);
             this.btnCompile.TabIndex = 11;
             this.btnCompile.Text = "Compile .exe";
             this.btnCompile.UseVisualStyleBackColor = true;
@@ -213,27 +268,30 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(15, 273);
+            this.label3.Location = new System.Drawing.Point(11, 222);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 17);
+            this.label3.Size = new System.Drawing.Size(75, 13);
             this.label3.TabIndex = 12;
             this.label3.Text = "Compiler Path:";
             // 
             // txtCompilerPath
             // 
             this.txtCompilerPath.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCompilerPath.Location = new System.Drawing.Point(118, 270);
+            this.txtCompilerPath.Location = new System.Drawing.Point(88, 219);
+            this.txtCompilerPath.Margin = new System.Windows.Forms.Padding(2);
             this.txtCompilerPath.Name = "txtCompilerPath";
-            this.txtCompilerPath.Size = new System.Drawing.Size(240, 21);
+            this.txtCompilerPath.Size = new System.Drawing.Size(181, 18);
             this.txtCompilerPath.TabIndex = 13;
-            this.txtCompilerPath.Text = "F:\\Visual Studio 2013\\VC\\bin\\cl.exe";
+            this.txtCompilerPath.Text = "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\cl.exe";
             // 
             // btnOpenCompiler
             // 
             this.btnOpenCompiler.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOpenCompiler.Location = new System.Drawing.Point(364, 270);
+            this.btnOpenCompiler.Location = new System.Drawing.Point(273, 219);
+            this.btnOpenCompiler.Margin = new System.Windows.Forms.Padding(2);
             this.btnOpenCompiler.Name = "btnOpenCompiler";
-            this.btnOpenCompiler.Size = new System.Drawing.Size(45, 23);
+            this.btnOpenCompiler.Size = new System.Drawing.Size(34, 19);
             this.btnOpenCompiler.TabIndex = 14;
             this.btnOpenCompiler.Text = "...";
             this.btnOpenCompiler.UseVisualStyleBackColor = true;
@@ -242,38 +300,39 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(15, 301);
+            this.label4.Location = new System.Drawing.Point(11, 245);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(100, 17);
+            this.label4.Size = new System.Drawing.Size(74, 13);
             this.label4.TabIndex = 15;
             this.label4.Text = "Compiler Args:";
             // 
             // txtCompilerArgs
             // 
             this.txtCompilerArgs.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCompilerArgs.Location = new System.Drawing.Point(118, 298);
+            this.txtCompilerArgs.Location = new System.Drawing.Point(88, 242);
+            this.txtCompilerArgs.Margin = new System.Windows.Forms.Padding(2);
             this.txtCompilerArgs.Name = "txtCompilerArgs";
-            this.txtCompilerArgs.Size = new System.Drawing.Size(294, 21);
+            this.txtCompilerArgs.Size = new System.Drawing.Size(222, 18);
             this.txtCompilerArgs.TabIndex = 16;
-            this.txtCompilerArgs.Text = "/EHsc /Od /MT *.cpp kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib a" +
-    "dvapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /link /FORCE:MULTIPLE /O" +
-    "UT:Mazz.exe";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(10, 493);
+            this.textBox1.Location = new System.Drawing.Point(8, 401);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(400, 44);
+            this.textBox1.Size = new System.Drawing.Size(301, 36);
             this.textBox1.TabIndex = 17;
             this.textBox1.Text = "Encrypted text lol";
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(10, 663);
+            this.progressBar1.Location = new System.Drawing.Point(8, 539);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(2);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(400, 37);
+            this.progressBar1.Size = new System.Drawing.Size(300, 30);
             this.progressBar1.TabIndex = 18;
             // 
             // statusStrip1
@@ -281,9 +340,10 @@
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lblStatus});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 703);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 570);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(419, 28);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 10, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(314, 24);
             this.statusStrip1.TabIndex = 19;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -291,14 +351,15 @@
             // 
             this.lblStatus.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(98, 23);
+            this.lblStatus.Size = new System.Drawing.Size(79, 19);
             this.lblStatus.Text = "Status: Idle.";
             // 
             // btn_generateDecryptClass
             // 
-            this.btn_generateDecryptClass.Location = new System.Drawing.Point(10, 543);
+            this.btn_generateDecryptClass.Location = new System.Drawing.Point(8, 441);
+            this.btn_generateDecryptClass.Margin = new System.Windows.Forms.Padding(2);
             this.btn_generateDecryptClass.Name = "btn_generateDecryptClass";
-            this.btn_generateDecryptClass.Size = new System.Drawing.Size(400, 54);
+            this.btn_generateDecryptClass.Size = new System.Drawing.Size(300, 44);
             this.btn_generateDecryptClass.TabIndex = 21;
             this.btn_generateDecryptClass.Text = "Encrypt String with XOR_KEY";
             this.btn_generateDecryptClass.UseVisualStyleBackColor = true;
@@ -306,51 +367,37 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(13, 465);
+            this.textBox2.Location = new System.Drawing.Point(10, 378);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.MaxLength = 1;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(397, 22);
+            this.textBox2.Size = new System.Drawing.Size(299, 20);
             this.textBox2.TabIndex = 22;
             this.textBox2.Text = "XOR_KEY";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(13, 437);
+            this.textBox3.Location = new System.Drawing.Point(10, 355);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(397, 22);
+            this.textBox3.Size = new System.Drawing.Size(299, 20);
             this.textBox3.TabIndex = 23;
             this.textBox3.Text = "String to Encrypt";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // toolsToolStripMenuItem
+            // testShitHereToolStripMenuItem
             // 
-            this.toolsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.applyEXECompilerArgsToolStripMenuItem,
-            this.applyDLLCompilerArgsToolStripMenuItem});
-            this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(57, 24);
-            this.toolsToolStripMenuItem.Text = "Tools";
-            // 
-            // applyEXECompilerArgsToolStripMenuItem
-            // 
-            this.applyEXECompilerArgsToolStripMenuItem.Name = "applyEXECompilerArgsToolStripMenuItem";
-            this.applyEXECompilerArgsToolStripMenuItem.Size = new System.Drawing.Size(248, 24);
-            this.applyEXECompilerArgsToolStripMenuItem.Text = "Apply .EXE Compiler Args";
-            this.applyEXECompilerArgsToolStripMenuItem.Click += new System.EventHandler(this.applyEXECompilerArgsToolStripMenuItem_Click);
-            // 
-            // applyDLLCompilerArgsToolStripMenuItem
-            // 
-            this.applyDLLCompilerArgsToolStripMenuItem.Name = "applyDLLCompilerArgsToolStripMenuItem";
-            this.applyDLLCompilerArgsToolStripMenuItem.Size = new System.Drawing.Size(248, 24);
-            this.applyDLLCompilerArgsToolStripMenuItem.Text = "Apply .DLL Compiler Args";
-            this.applyDLLCompilerArgsToolStripMenuItem.Click += new System.EventHandler(this.applyDLLCompilerArgsToolStripMenuItem_Click);
+            this.testShitHereToolStripMenuItem.Name = "testShitHereToolStripMenuItem";
+            this.testShitHereToolStripMenuItem.Size = new System.Drawing.Size(342, 22);
+            this.testShitHereToolStripMenuItem.Text = "Test shit here";
+            this.testShitHereToolStripMenuItem.Click += new System.EventHandler(this.testShitHereToolStripMenuItem_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(419, 731);
+            this.ClientSize = new System.Drawing.Size(314, 594);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.btn_generateDecryptClass);
@@ -369,6 +416,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.msMain);
             this.MainMenuStrip = this.msMain;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "MazzCrypt - Private Polymorphic Parser";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -415,6 +463,9 @@
         private System.Windows.Forms.ToolStripMenuItem toolsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem applyEXECompilerArgsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem applyDLLCompilerArgsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem applyD3DEXECompilerArgsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem applyEXEWithPDBFileGenerationCompilerArgsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem testShitHereToolStripMenuItem;
     }
 }
 

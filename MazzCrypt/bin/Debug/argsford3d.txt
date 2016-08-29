@@ -1,0 +1,1 @@
+/I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /EHsc /Od /MT *.cpp kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib" /link /FORCE:MULTIPLE /OUT:Mazz.exe

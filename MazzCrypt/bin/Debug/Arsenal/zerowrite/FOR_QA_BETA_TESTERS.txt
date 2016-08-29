@@ -1,0 +1,40 @@
+Thanks for being an assigned QA Tester for Zerowrite.
+
+In your name-assigned .zip, you should have:
+
+* 5 random .exe's
+* settings.ini
+* cleanEvidence.bat
+
+
+Your duty before testing:
+===========================================
+1. Go on alt account
+2. Launch CSGO
+3. Launch any of the random .exe's
+4. Go to Matchmaking. [[ DO NOT USE ESEA, CEVO, FaceIT or Popflash on these builds. They are NOT compatible and you WILL be banned!! ]]
+5. Change/experiment with settings.ini to your liking (you can edit this while the cheat is running)
+6. Play 2-3 games on Matchmaking
+7. Report feedback/gitches or any bans that may occur to Zerowriter (Justin).
+	* Say what is wrong
+	* Explain PRECISELY what you are experiencing or steps to replicate what is happening.
+============================================
+
+ [[ NOTE: Keep in mind, if you get Overwatch banned, it is your own fault. This cheat only READS memory. It is impossible for it write memory as I didn't even MAKE a function to write memory ]]
+
+Your duty after testing the cheat:
+=======================================
+* Press END on the cheat and wait until the cheat says "Threads ending", and the cheat closes itself.
+* If you're on Windows 10:
+	1.	Hold the Windows key and press X. A menu should popup
+	2.	Click on "Command Prompt (Admin)". It needs to be the one with (Admin).
+	3.	type 'cd '
+	4.	Following that, in quotes put the directory of where you've extracted the contents of this .zip into. Press Enter.
+	5.	If you're in the correct directory if you type 'clean' and press Tab, you should see it auto-complete cleanEvidence.bat
+	5a.	If you don't see this, go back to step 3
+	6.	Press Enter. This will run the .bat.
+* If you're not on Windows 10:
+	1. Right click cleanEvidence.bat and click Run as Administrator
+
+* Steam, CSGO should close itself and your computer should restart.
+=======================================

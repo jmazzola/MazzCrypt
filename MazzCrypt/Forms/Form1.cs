@@ -229,9 +229,10 @@ namespace MazzCrypt
             else
             {
                 str3 = string.Concat(str3, "&pause");
-            }
+            } 
 
             processStartInfo.Arguments = str3;
+           // MessageBox.Show(str3);
             Process.Start(processStartInfo).WaitForExit();
             SetProgressBar(3, progress);
             SetStatus("Finishing up..");
@@ -256,6 +257,7 @@ namespace MazzCrypt
 
             SetProgressBar(4, progress);
             SetStatus("Done with " + safeFileName);
+
 
             if (!flag)
             {
@@ -298,6 +300,7 @@ namespace MazzCrypt
                 MessageBox.Show("The current .zip isn't valid!", "ZIP isn't valid");
                 return;
             }
+
             if (isCompiling)
             {
                 MessageBox.Show("Still compiling, please wait.", "Still Compiling!");
@@ -361,6 +364,22 @@ namespace MazzCrypt
         {
             // .EXE compilation
             txtCompilerArgs.Text = "/EHsc /Od /MT *.cpp kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /link /FORCE:MULTIPLE /OUT:Mazz.exe";
+        }
+
+        private void applyD3DEXECompilerArgsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // D3DX9 .EXE compilation
+            txtCompilerArgs.Text = "/I\"C:\\Program Files (x86)\\Microsoft DirectX SDK(June 2010)\\Include\" /EHsc /Od /MT *.cpp kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib \"C:\\Program Files(x86)\\Microsoft DirectX SDK(June 2010)\\Lib\\x86\\d3dx9.lib\" /link /FORCE:MULTIPLE /OUT:Mazz.exe";
+        }
+
+        private void applyEXEWithPDBFileGenerationCompilerArgsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            txtCompilerArgs.Text = "/EHsc /Od /Z7 /W3 /WX- /sdl /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Gd /wd4091 /wd4172 /wd4800 *.cpp kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib /link /FORCE:MULTIPLE /OUT:Mazz.exe";
+        }
+
+        private void testShitHereToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(Junk.GenerateCode());
         }
 
         private void applyDLLCompilerArgsToolStripMenuItem_Click(object sender, EventArgs e)

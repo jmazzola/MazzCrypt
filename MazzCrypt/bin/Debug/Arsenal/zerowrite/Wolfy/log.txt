@@ -1,0 +1,1187 @@
+﻿2016-07-30 10:19:41.674 DEBUG [2020] [Init@277] ======= START =======
+2016-07-30 10:19:41.675 DEBUG [2020] [Init@281] Zerowrite Initiated.
+2016-07-30 10:19:41.680 DEBUG [2020] [Init@330] CSGO has been loaded | ProcessID: 8828
+2016-07-30 10:19:41.713 DEBUG [2020] [Init@351] settings.ini was successfully loaded!
+2016-07-30 10:19:41.717 DEBUG [2020] [Init@376] client.dll was detected | Base: 16ed0000 Size: 50a6000
+2016-07-30 10:19:41.721 DEBUG [2020] [Init@383] engine.dll was detected | Base: 53220000 Size: 8e0000
+2016-07-30 10:19:41.721 DEBUG [2020] [Offsets::Init@17] Initializing Offsets | Signatures
+2016-07-30 10:19:41.870 DEBUG [2020] [Offsets::Init@67] EntityList : 0x4a4fca4
+2016-07-30 10:19:41.972 DEBUG [2020] [Offsets::Init@95] LocalPlayer : 0xa323e4
+2016-07-30 10:19:42.075 DEBUG [2020] [Offsets::Init@122] EnginePtr : 0x5b82b4
+2016-07-30 10:19:42.075 DEBUG [2020] [Offsets::Init@128] Viewangles : 0x4d0c
+2016-07-30 10:19:42.176 DEBUG [2020] [Offsets::Init@149] CrosshairIndex : 0xaa44
+2016-07-30 10:19:42.266 DEBUG [2020] [Offsets::Init@175] Viewmatrix : 0x4a41854
+2016-07-30 10:19:42.365 DEBUG [2020] [Offsets::Init@205] PunchAngles : 0x3018
+2016-07-30 10:19:42.464 DEBUG [2020] [Offsets::Init@230] CanReload : 0x3235
+2016-07-30 10:19:42.571 DEBUG [2020] [Offsets::Init@254] NetvarClasses : 0x1791fdcc
+2016-07-30 10:19:42.586 DEBUG [2020] [Offsets::Init@275] PlayerInfo : 0x523c
+2016-07-30 10:19:42.663 DEBUG [2020] [Offsets::Init@299] Attack : 0x2e8fcdc
+2016-07-30 10:19:42.744 DEBUG [2020] [Offsets::Init@320] InGameSensitivity : 0xa37bec
+2016-07-30 10:19:42.822 DEBUG [2020] [Offsets::Init@343] MoveType : 0x258
+2016-07-30 10:19:42.903 DEBUG [2020] [Offsets::Init@362] m_pStudioHdr : 0x293c
+2016-07-30 10:19:42.915 DEBUG [2020] [Offsets::Init@378] MapName : 0x284
+2016-07-30 10:19:42.934 DEBUG [2020] [Offsets::Init@397] Game Directory String : 0xdb5f70
+2016-07-30 10:19:43.004 DEBUG [2020] [Offsets::Init@419] CGlobalVars : 0xa26364
+2016-07-30 10:19:43.090 DEBUG [2020] [Offsets::Init@444] m_flFlashBangTime : 0xa2e4
+2016-07-30 10:19:43.090 DEBUG [2020] [Offsets::Init@450] Finished initializing Offsets | Signatures!
+2016-07-30 10:19:43.094 DEBUG [2020] [Offsets::LoadNetvars@460] Starting to Load Netvars
+2016-07-30 10:19:43.134 DEBUG [2020] [Offsets::LoadNetvars@510] Finished loading Netvars
+2016-07-30 10:19:43.134 DEBUG [2020] [Init@402] Bases and Netvars were loaded and populated!
+2016-07-30 10:19:43.134 DEBUG [2020] [Init@411] Starting threads..
+2016-07-30 10:19:43.135 DEBUG [7848] [UpdateTick@136] UpdateTick thread started!
+2016-07-30 10:19:43.135 DEBUG [2020] [LaunchThreads@94] Daemon thread UpdateTick launched.
+2016-07-30 10:19:43.135 DEBUG [4460] [BSPHandler@14] BSPHandler thread started!
+2016-07-30 10:19:43.135 DEBUG [2020] [LaunchThreads@106] Daemon thread BSPHandler launched.
+2016-07-30 10:19:43.135 DEBUG [2020] [LaunchThreads@118] Daemon thread Triggerbot launched.
+2016-07-30 10:19:43.135 DEBUG [4476] [Triggerbot::Start@956] Triggerbot thread started!
+2016-07-30 10:19:43.135 DEBUG [9160] [RCS::Start@27] RCS thread started!
+2016-07-30 10:19:43.135 DEBUG [2020] [LaunchThreads@127] Daemon thread RCS launched.
+2016-07-30 10:20:03.136 DEBUG [4460] [BSPHandler@60] Different map detected! Old Map: No Map Detected | New Map: workshop/141243798/aim_ag_texture2
+2016-07-30 10:20:03.151 DEBUG [4460] [BSPHandler@70] BSP has loaded with workshop/141243798/aim_ag_texture2 successfully!
+2016-07-30 10:25:44.625 ERROR [2020] [Loop@434] CSGO doesn't exist anymore. Exiting main loop!
+2016-07-30 10:25:44.626 DEBUG [2020] [Loop@471] END key detected, exiting main loop!
+2016-07-30 10:25:44.627 DEBUG [2020] [Cleanup@485] All threads were deactivated.
+2016-07-30 10:25:44.627 DEBUG [7848] [UpdateTick@162] Update bool was true, Ending thread!
+2016-07-30 10:25:44.627 DEBUG [4476] [Triggerbot::Start@977] Triggerbot bool was true, Ending thread!
+2016-07-30 10:25:44.627 DEBUG [9160] [RCS::Start@54] RCS bool was true, Ending thread!
+2016-07-30 10:25:45.213 DEBUG [2020] [Cleanup@497] settings.ini was saved
+2016-07-30 10:25:45.214 DEBUG [2020] [Cleanup@529] Self-deleting executable..
+2016-07-30 10:25:45.219 DEBUG [2020] [main@557] Cleanup has finished, exiting program
+2016-07-30 10:25:45.820 DEBUG [2020] [main@566] ======= END =======
+2016-07-30 10:27:45.547 DEBUG [3392] [Init@281] ======= START =======
+2016-07-30 10:27:45.547 DEBUG [3392] [Init@287] Zerowrite Initiated.
+2016-07-30 10:27:45.551 DEBUG [3392] [Init@333] CSGO has been loaded | ProcessID: 5916
+2016-07-30 10:27:45.573 DEBUG [3392] [Init@351] settings.ini was successfully loaded!
+2016-07-30 10:27:45.577 DEBUG [3392] [Init@378] client.dll was detected | Base: 17120000 Size: 50a6000
+2016-07-30 10:27:45.580 DEBUG [3392] [Init@385] engine.dll was detected | Base: 53250000 Size: 8e0000
+2016-07-30 10:27:45.580 DEBUG [3392] [Offsets::Init@17] Initializing Offsets | Signatures
+2016-07-30 10:27:45.678 DEBUG [3392] [Offsets::Init@69] EntityList : 0x4a4fca4
+2016-07-30 10:27:45.764 DEBUG [3392] [Offsets::Init@98] LocalPlayer : 0xa323e4
+2016-07-30 10:27:45.782 DEBUG [3392] [Offsets::Init@125] EnginePtr : 0x5b82b4
+2016-07-30 10:27:45.782 DEBUG [3392] [Offsets::Init@130] Viewangles : 0x4d0c
+2016-07-30 10:27:45.873 DEBUG [3392] [Offsets::Init@151] CrosshairIndex : 0xaa44
+2016-07-30 10:27:45.951 DEBUG [3392] [Offsets::Init@176] Viewmatrix : 0x4a41854
+2016-07-30 10:27:46.041 DEBUG [3392] [Offsets::Init@206] PunchAngles : 0x3018
+2016-07-30 10:27:46.138 DEBUG [3392] [Offsets::Init@230] CanReload : 0x3235
+2016-07-30 10:27:46.239 DEBUG [3392] [Offsets::Init@255] NetvarClasses : 0x17b6fdcc
+2016-07-30 10:27:46.251 DEBUG [3392] [Offsets::Init@274] PlayerInfo : 0x523c
+2016-07-30 10:27:46.331 DEBUG [3392] [Offsets::Init@299] Attack : 0x2e8fcdc
+2016-07-30 10:27:46.414 DEBUG [3392] [Offsets::Init@318] InGameSensitivity : 0xa37bec
+2016-07-30 10:27:46.489 DEBUG [3392] [Offsets::Init@339] MoveType : 0x258
+2016-07-30 10:27:46.562 DEBUG [3392] [Offsets::Init@358] m_pStudioHdr : 0x293c
+2016-07-30 10:27:46.574 DEBUG [3392] [Offsets::Init@374] MapName : 0x284
+2016-07-30 10:27:46.575 DEBUG [3392] [Offsets::Init@392] Game Directory String : 0xdb5f70
+2016-07-30 10:27:46.647 DEBUG [3392] [Offsets::Init@415] CGlobalVars : 0xa26364
+2016-07-30 10:27:46.744 DEBUG [3392] [Offsets::Init@441] m_flFlashBangTime : 0xa2e4
+2016-07-30 10:27:46.744 DEBUG [3392] [Offsets::Init@450] Finished initializing Offsets | Signatures!
+2016-07-30 10:27:46.748 DEBUG [3392] [Offsets::LoadNetvars@459] Starting to Load Netvars
+2016-07-30 10:27:46.786 DEBUG [3392] [Offsets::LoadNetvars@506] Finished loading Netvars
+2016-07-30 10:27:46.786 DEBUG [3392] [Init@405] Bases and Netvars were loaded and populated!
+2016-07-30 10:27:46.787 DEBUG [3392] [Init@414] Starting threads..
+2016-07-30 10:27:46.787 DEBUG [2980] [UpdateTick@146] UpdateTick thread started!
+2016-07-30 10:27:46.787 DEBUG [3392] [LaunchThreads@95] Daemon thread UpdateTick launched.
+2016-07-30 10:27:46.788 DEBUG [10032] [BSPHandler@14] BSPHandler thread started!
+2016-07-30 10:27:46.788 DEBUG [3392] [LaunchThreads@110] Daemon thread BSPHandler launched.
+2016-07-30 10:27:46.788 DEBUG [3392] [LaunchThreads@124] Daemon thread Triggerbot launched.
+2016-07-30 10:27:46.788 DEBUG [6816] [Triggerbot::Start@941] Triggerbot thread started!
+2016-07-30 10:27:46.788 DEBUG [3532] [RCS::Start@27] RCS thread started!
+2016-07-30 10:27:46.788 DEBUG [3392] [LaunchThreads@134] Daemon thread RCS launched.
+2016-07-30 10:28:26.175 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.175 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.176 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.176 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.176 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.176 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.176 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.176 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.176 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.176 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.176 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.176 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.176 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.176 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.176 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.177 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.177 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.177 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.178 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.178 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.178 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.178 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.178 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.178 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.178 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.178 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.178 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.178 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.179 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.179 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.179 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.179 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.179 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.179 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.179 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.179 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.180 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.180 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.180 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.181 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.181 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.181 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.181 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.181 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.181 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.181 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.181 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.181 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.181 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.181 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.181 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.181 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.182 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.182 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.183 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.183 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.183 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.184 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.184 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.184 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.184 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.184 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.184 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.184 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.184 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.184 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.184 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.184 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.184 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.184 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.184 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.185 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.186 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.186 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.186 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.186 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.186 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.186 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.186 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.186 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.186 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.186 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.186 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.186 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.186 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.186 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.187 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.187 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.187 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.187 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.188 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.188 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.188 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.188 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.189 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.189 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.189 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.189 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.189 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.189 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.189 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.189 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.189 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.189 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.189 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.189 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.189 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.189 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.190 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.190 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.190 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.190 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.191 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.191 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.191 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.191 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.191 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.191 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.191 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.191 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.191 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.191 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.191 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.191 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.191 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.191 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.193 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.193 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.193 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.193 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.193 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.193 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.193 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.193 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.193 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.193 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.193 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.193 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.193 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.193 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.193 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.193 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.193 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.194 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.195 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.195 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.195 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.195 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.195 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.195 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.195 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.195 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.195 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.195 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.195 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.195 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.195 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.195 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.196 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.196 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.196 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.196 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.197 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.197 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.197 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.197 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.197 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.197 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.197 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.197 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.197 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.197 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.198 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.198 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.198 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.198 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.198 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.198 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.198 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.198 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.200 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.200 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.200 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.200 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.200 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.200 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.200 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.200 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.200 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.200 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.201 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.201 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.201 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.201 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.201 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.201 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.201 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.201 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.202 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.202 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.203 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.203 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.203 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.203 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.203 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.203 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.203 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.203 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.203 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.203 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.203 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.203 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.203 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.203 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.203 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.203 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.205 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.205 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.206 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.206 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.206 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.206 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.206 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.206 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.206 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.206 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.206 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.206 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.206 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.206 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.206 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.206 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.206 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.206 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.208 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.208 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.208 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.208 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.208 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.208 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.208 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.208 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.208 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.208 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.209 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.209 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.209 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.209 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.209 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.209 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.209 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.209 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.210 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.210 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.211 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.211 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.211 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.211 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.211 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.211 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.211 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.211 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.211 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.211 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.211 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.211 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.211 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.211 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.212 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.212 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.213 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.213 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.213 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.213 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.213 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.213 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.213 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.213 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.214 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.214 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.214 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.214 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.214 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.214 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.214 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.214 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.214 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.214 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.215 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.215 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.216 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.216 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.216 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.216 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.216 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.216 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.216 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.216 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.216 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.216 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.216 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.216 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.216 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.216 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.216 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.217 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.218 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.218 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.218 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.218 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.218 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.218 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.218 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.218 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.218 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.218 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.219 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.219 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.219 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.219 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.219 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.219 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.219 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.219 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.221 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.221 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.221 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.221 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.221 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.221 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.221 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.221 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.221 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.221 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.222 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.222 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.222 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.222 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.222 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.222 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.222 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.222 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.223 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.223 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.224 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.224 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.224 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.224 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.224 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.224 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.224 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.224 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.224 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.224 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.224 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.224 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.224 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.224 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.224 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.225 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.226 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.226 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.226 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.226 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.226 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.226 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.226 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.226 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.226 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.226 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.227 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.227 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.227 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.227 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.227 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.227 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.227 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.227 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.228 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.228 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.228 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.229 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.229 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.229 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.229 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.229 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.229 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.229 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.229 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.229 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.229 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.229 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.229 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.229 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.229 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.229 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.230 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.230 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.231 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.231 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.231 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.231 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.231 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.231 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.231 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.231 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.231 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.231 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.231 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.231 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.231 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.231 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.231 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.232 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.233 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.233 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.233 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.233 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.233 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.233 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.233 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.233 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.233 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.233 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.234 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.234 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.234 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.234 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.234 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.234 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.234 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.234 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.235 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.235 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.235 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.236 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.236 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.236 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.236 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.236 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.236 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.236 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.236 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.236 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.236 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.236 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.236 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.236 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.236 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.236 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.238 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.238 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.238 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.238 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.238 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.238 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.239 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.239 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.239 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.239 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.239 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.239 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.239 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.239 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.239 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.239 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.239 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.239 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.241 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.241 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.241 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.241 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.241 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.241 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.241 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.241 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.242 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.242 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.242 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.242 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.242 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.242 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.242 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.242 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.242 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.242 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.243 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.243 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.244 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.244 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.244 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.244 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.244 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.244 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.244 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.244 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.244 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.244 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.244 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.244 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.244 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.244 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.245 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.245 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.246 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.246 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.246 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.246 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.246 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.246 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.246 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.246 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.246 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.246 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.246 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.247 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.247 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.247 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.247 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.247 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.247 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.247 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.248 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.248 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.249 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.249 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.249 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.249 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.249 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.249 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.249 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.249 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.249 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.249 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.249 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.249 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.249 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.249 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.249 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.249 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.251 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.251 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.251 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.251 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.251 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.251 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.251 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.251 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.251 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.251 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.251 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.252 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.252 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.252 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.252 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.252 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.252 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.252 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.254 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.254 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.254 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.254 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.254 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.254 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.255 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.255 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.255 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.255 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.255 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.255 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.255 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.255 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.255 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.255 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.255 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.255 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.258 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.258 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.258 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.258 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.258 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.258 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.258 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.258 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.258 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.258 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.258 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.258 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.258 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.258 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.259 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.259 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.259 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.259 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.261 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.261 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.261 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.261 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.261 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.261 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.261 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.261 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.261 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.261 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.261 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.261 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.262 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.262 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.262 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.262 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.262 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.262 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.263 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.263 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.264 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.264 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.264 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.264 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.264 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.264 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.264 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.264 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.264 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.264 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.264 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.264 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.264 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.264 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.264 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.264 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.266 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.266 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.267 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.267 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.267 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.267 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.267 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.267 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.267 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.267 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.267 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.267 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.267 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.267 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.267 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.267 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.267 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.267 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.269 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.269 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.269 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.269 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.269 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.269 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.269 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.269 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.269 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.269 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.270 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.270 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.270 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.270 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.270 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.270 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.270 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.270 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.271 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.271 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.271 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.271 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.272 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.272 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.272 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.272 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.272 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.272 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.272 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.272 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.272 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.272 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.272 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.272 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.272 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.272 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.273 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.273 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.273 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.274 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.274 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.274 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.274 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.274 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.274 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.274 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.274 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.274 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.274 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.274 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.274 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.274 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.274 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.275 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.276 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.276 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.276 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.276 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.276 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.276 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.276 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.276 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.276 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.277 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.277 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.277 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.277 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.277 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.277 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.277 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.277 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.277 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.278 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.278 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.279 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.279 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.279 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.279 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.279 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.279 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.279 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.279 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.279 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.279 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.279 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.279 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.279 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.279 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.279 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.280 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.281 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.281 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.281 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.281 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.281 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.281 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.281 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.281 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.281 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.282 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.282 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.282 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.282 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.282 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.282 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.282 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.282 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.282 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.283 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.283 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.284 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.284 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.284 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.284 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.284 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.284 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.284 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.284 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.284 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.284 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.284 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.284 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.284 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.284 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.284 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.284 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.286 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.286 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.286 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.286 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.286 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.286 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.286 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.286 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.286 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.286 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.286 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.286 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.286 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.287 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.287 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.287 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.287 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.287 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.289 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.289 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.289 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.289 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.289 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.289 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.289 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.289 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.289 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.289 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.289 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.289 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.289 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.289 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.289 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.290 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.290 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.290 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.291 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.291 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.291 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.291 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.292 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.292 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.292 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.292 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.292 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.292 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.292 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.292 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.292 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.292 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.292 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.292 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.292 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.292 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.293 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.293 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.293 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.293 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.294 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.294 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.294 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.294 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.294 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.294 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.294 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.294 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.294 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.294 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.294 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.294 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.294 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.294 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.295 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.295 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.295 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.295 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.296 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.296 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.296 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.296 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.296 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.296 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.296 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.296 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.296 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.296 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.296 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.296 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.296 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.296 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.298 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.298 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.298 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.298 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.298 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.298 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.298 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.298 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.298 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.298 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.298 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.298 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.298 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.298 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.298 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.299 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.299 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.299 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.300 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.300 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.300 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.300 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.300 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.300 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.300 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.300 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.300 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.301 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.301 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.301 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.301 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.301 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.301 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.301 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.301 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.301 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.302 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.302 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.303 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.303 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.303 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.303 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.303 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.303 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.303 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.303 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.303 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.303 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.304 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.304 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.304 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.304 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.304 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.304 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.305 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.305 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.305 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.306 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.306 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.306 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.306 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.306 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.306 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.306 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.306 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.306 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.306 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.306 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.306 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.306 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.306 ERROR [6816] [BSP::IsVisible@269] The BSP map information wasn't loaded or was NULL!
+2016-07-30 10:28:26.306 ERROR [6816] [Triggerbot::GetPlayerInRay@707] [Triggerbot] BSP was infact NULL soooo..
+2016-07-30 10:28:26.789 DEBUG [10032] [BSPHandler@59] Different map detected! Old Map: No Map Detected | New Map: de_dust2
+2016-07-30 10:28:26.836 DEBUG [10032] [BSPHandler@70] BSP has loaded with de_dust2 successfully!
+2016-07-30 10:39:16.864 DEBUG [10032] [BSPHandler@59] Different map detected! Old Map: de_dust2 | New Map: de_mirage
+2016-07-30 10:39:16.908 DEBUG [10032] [BSPHandler@70] BSP has loaded with de_mirage successfully!
+2016-07-30 10:39:53.646 ERROR [3392] [Loop@436] CSGO doesn't exist anymore. Exiting main loop!
+2016-07-30 10:39:53.646 DEBUG [3392] [Loop@473] END key detected, exiting main loop!
+2016-07-30 10:39:53.647 DEBUG [3392] [Cleanup@488] All threads were deactivated.
+2016-07-30 10:39:53.647 DEBUG [6816] [Triggerbot::Start@966] Triggerbot bool was true, Ending thread!
+2016-07-30 10:39:53.648 DEBUG [3532] [RCS::Start@54] RCS bool was true, Ending thread!
+2016-07-30 10:39:53.648 DEBUG [2980] [UpdateTick@168] Update bool was true, Ending thread!
+2016-07-30 10:39:54.263 DEBUG [3392] [Cleanup@498] settings.ini was saved
+2016-07-30 10:39:54.269 DEBUG [3392] [Cleanup@527] Self-deleting executable..
+2016-07-30 10:39:54.277 DEBUG [3392] [main@557] Cleanup has finished, exiting program
+2016-07-30 10:39:54.877 DEBUG [3392] [main@568] ======= END =======
+2016-07-30 10:40:33.035 DEBUG [6008] [Init@282] ======= START =======
+2016-07-30 10:40:33.036 DEBUG [6008] [Init@286] Zerowrite Initiated.
+2016-07-30 10:40:33.040 DEBUG [6008] [Init@335] CSGO has been loaded | ProcessID: 7884
+2016-07-30 10:40:33.072 DEBUG [6008] [Init@353] settings.ini was successfully loaded!
+2016-07-30 10:40:33.076 DEBUG [6008] [Init@377] client.dll was detected | Base: 16b70000 Size: 50a6000
+2016-07-30 10:40:33.080 DEBUG [6008] [Init@384] engine.dll was detected | Base: 53290000 Size: 8e0000
+2016-07-30 10:40:33.080 DEBUG [6008] [Offsets::Init@17] Initializing Offsets | Signatures
+2016-07-30 10:40:33.174 DEBUG [6008] [Offsets::Init@73] EntityList : 0x4a4fca4
+2016-07-30 10:40:33.248 DEBUG [6008] [Offsets::Init@100] LocalPlayer : 0xa323e4
+2016-07-30 10:40:33.262 DEBUG [6008] [Offsets::Init@127] EnginePtr : 0x5b82b4
+2016-07-30 10:40:33.262 DEBUG [6008] [Offsets::Init@131] Viewangles : 0x4d0c
+2016-07-30 10:40:33.347 DEBUG [6008] [Offsets::Init@151] CrosshairIndex : 0xaa44
+2016-07-30 10:40:33.423 DEBUG [6008] [Offsets::Init@178] Viewmatrix : 0x4a41854
+2016-07-30 10:40:33.514 DEBUG [6008] [Offsets::Init@204] PunchAngles : 0x3018
+2016-07-30 10:40:33.612 DEBUG [6008] [Offsets::Init@228] CanReload : 0x3235
+2016-07-30 10:40:33.714 DEBUG [6008] [Offsets::Init@252] NetvarClasses : 0x175bfdcc
+2016-07-30 10:40:33.728 DEBUG [6008] [Offsets::Init@273] PlayerInfo : 0x523c
+2016-07-30 10:40:33.809 DEBUG [6008] [Offsets::Init@298] Attack : 0x2e8fcdc
+2016-07-30 10:40:33.887 DEBUG [6008] [Offsets::Init@316] InGameSensitivity : 0xa37bec
+2016-07-30 10:40:33.962 DEBUG [6008] [Offsets::Init@341] MoveType : 0x258
+2016-07-30 10:40:34.029 DEBUG [6008] [Offsets::Init@359] m_pStudioHdr : 0x293c
+2016-07-30 10:40:34.043 DEBUG [6008] [Offsets::Init@375] MapName : 0x284
+2016-07-30 10:40:34.044 DEBUG [6008] [Offsets::Init@394] Game Directory String : 0xdb5f70
+2016-07-30 10:40:34.118 DEBUG [6008] [Offsets::Init@415] CGlobalVars : 0xa26364
+2016-07-30 10:40:34.204 DEBUG [6008] [Offsets::Init@444] m_flFlashBangTime : 0xa2e4
+2016-07-30 10:40:34.204 DEBUG [6008] [Offsets::Init@452] Finished initializing Offsets | Signatures!
+2016-07-30 10:40:34.207 DEBUG [6008] [Offsets::LoadNetvars@462] Starting to Load Netvars
+2016-07-30 10:40:34.245 DEBUG [6008] [Offsets::LoadNetvars@509] Finished loading Netvars
+2016-07-30 10:40:34.245 DEBUG [6008] [Init@402] Bases and Netvars were loaded and populated!
+2016-07-30 10:40:34.245 DEBUG [6008] [Init@411] Starting threads..
+2016-07-30 10:40:34.245 DEBUG [9748] [UpdateTick@143] UpdateTick thread started!
+2016-07-30 10:40:34.245 DEBUG [6008] [LaunchThreads@96] Daemon thread UpdateTick launched.
+2016-07-30 10:40:34.246 DEBUG [3556] [BSPHandler@14] BSPHandler thread started!
+2016-07-30 10:40:34.246 DEBUG [6008] [LaunchThreads@110] Daemon thread BSPHandler launched.
+2016-07-30 10:40:34.246 DEBUG [6008] [LaunchThreads@121] Daemon thread Triggerbot launched.
+2016-07-30 10:40:34.246 DEBUG [8272] [Triggerbot::Start@947] Triggerbot thread started!
+2016-07-30 10:40:34.246 DEBUG [4780] [RCS::Start@27] RCS thread started!
+2016-07-30 10:40:34.246 DEBUG [6008] [LaunchThreads@131] Daemon thread RCS launched.
+2016-07-30 10:41:04.247 DEBUG [3556] [BSPHandler@60] Different map detected! Old Map: No Map Detected | New Map: de_mirage
+2016-07-30 10:41:04.310 DEBUG [3556] [BSPHandler@71] BSP has loaded with de_mirage successfully!
+2016-07-30 10:42:09.528 DEBUG [6008] [Loop@450] Triggerbot was toggled OFF
+2016-07-30 10:42:10.273 DEBUG [6008] [Loop@450] Triggerbot was toggled ON
+2016-07-30 10:52:35.408 DEBUG [6008] [Loop@450] Triggerbot was toggled OFF
+2016-07-30 10:52:35.697 DEBUG [6008] [Loop@450] Triggerbot was toggled ON
+2016-07-30 10:52:44.337 DEBUG [3556] [BSPHandler@60] Different map detected! Old Map: de_mirage | New Map: de_cbble
+2016-07-30 10:52:44.440 DEBUG [3556] [BSPHandler@71] BSP has loaded with de_cbble successfully!
+2016-07-30 10:56:39.586 DEBUG [6008] [Loop@450] Triggerbot was toggled OFF
+2016-07-30 10:56:40.899 DEBUG [6008] [Loop@450] Triggerbot was toggled ON
+2016-07-30 10:58:32.785 DEBUG [6008] [Loop@450] Triggerbot was toggled OFF
+2016-07-30 10:59:20.239 DEBUG [6008] [Loop@450] Triggerbot was toggled ON
+2016-07-30 10:59:58.140 DEBUG [6008] [Loop@450] Triggerbot was toggled OFF
+2016-07-30 11:00:36.815 DEBUG [6008] [Loop@450] Triggerbot was toggled ON
+2016-07-30 11:25:23.951 DEBUG [6008] [Loop@450] Triggerbot was toggled OFF
+2016-07-30 11:27:03.257 DEBUG [6008] [Loop@470] END key detected, exiting main loop!
+2016-07-30 11:27:03.258 DEBUG [6008] [Cleanup@485] All threads were deactivated.
+2016-07-30 11:27:03.258 DEBUG [9748] [UpdateTick@171] Update bool was true, Ending thread!
+2016-07-30 11:27:03.258 DEBUG [8272] [Triggerbot::Start@966] Triggerbot bool was true, Ending thread!
+2016-07-30 11:27:03.258 DEBUG [4780] [RCS::Start@55] RCS bool was true, Ending thread!
+2016-07-30 11:27:03.901 DEBUG [6008] [Cleanup@496] settings.ini was saved
+2016-07-30 11:27:03.902 DEBUG [6008] [Cleanup@525] Self-deleting executable..
+2016-07-30 11:27:03.920 DEBUG [6008] [main@556] Cleanup has finished, exiting program
+2016-07-30 11:27:04.520 DEBUG [6008] [main@567] ======= END =======
+2016-08-01 20:26:31.222 DEBUG [138516] [Init@286] ======= START =======
+2016-08-01 20:26:31.246 DEBUG [138516] [Init@292] Zerowrite Initiated.
+2016-08-01 20:26:31.252 DEBUG [138516] [Init@341] CSGO has been loaded | ProcessID: 11324
+2016-08-01 20:26:31.298 DEBUG [138516] [Init@360] settings.ini was successfully loaded!
+2016-08-01 20:26:31.302 DEBUG [138516] [Init@387] client.dll was detected | Base: 52170000 Size: 50a6000
+2016-08-01 20:26:31.305 DEBUG [138516] [Init@394] engine.dll was detected | Base: 58180000 Size: 8e0000
+2016-08-01 20:26:31.306 DEBUG [138516] [Offsets::Init@17] Initializing Offsets | Signatures
+2016-08-01 20:26:31.403 DEBUG [138516] [Offsets::Init@62] EntityList : 0x4a4fca4
+2016-08-01 20:26:31.484 DEBUG [138516] [Offsets::Init@89] LocalPlayer : 0xa323e4
+2016-08-01 20:26:31.503 DEBUG [138516] [Offsets::Init@115] EnginePtr : 0x5b82b4
+2016-08-01 20:26:31.503 DEBUG [138516] [Offsets::Init@119] Viewangles : 0x4d0c
+2016-08-01 20:26:31.594 DEBUG [138516] [Offsets::Init@140] CrosshairIndex : 0xaa44
+2016-08-01 20:26:31.675 DEBUG [138516] [Offsets::Init@165] Viewmatrix : 0x4a41854
+2016-08-01 20:26:31.765 DEBUG [138516] [Offsets::Init@196] PunchAngles : 0x3018
+2016-08-01 20:26:31.862 DEBUG [138516] [Offsets::Init@219] CanReload : 0x3235
+2016-08-01 20:26:31.973 DEBUG [138516] [Offsets::Init@246] NetvarClasses : 0x52bbfdcc
+2016-08-01 20:26:31.986 DEBUG [138516] [Offsets::Init@266] PlayerInfo : 0x523c
+2016-08-01 20:26:32.067 DEBUG [138516] [Offsets::Init@290] Attack : 0x2e8fcdc
+2016-08-01 20:26:32.148 DEBUG [138516] [Offsets::Init@308] InGameSensitivity : 0xa37bec
+2016-08-01 20:26:32.221 DEBUG [138516] [Offsets::Init@335] MoveType : 0x258
+2016-08-01 20:26:32.298 DEBUG [138516] [Offsets::Init@355] m_pStudioHdr : 0x293c
+2016-08-01 20:26:32.313 DEBUG [138516] [Offsets::Init@371] MapName : 0x284
+2016-08-01 20:26:32.313 DEBUG [138516] [Offsets::Init@390] Game Directory String : 0x2a5f70
+2016-08-01 20:26:32.387 DEBUG [138516] [Offsets::Init@413] CGlobalVars : 0xa26364
+2016-08-01 20:26:32.483 DEBUG [138516] [Offsets::Init@442] m_flFlashBangTime : 0xa2e4
+2016-08-01 20:26:32.483 DEBUG [138516] [Offsets::Init@451] Finished initializing Offsets | Signatures!
+2016-08-01 20:26:32.487 DEBUG [138516] [Offsets::LoadNetvars@462] Starting to Load Netvars
+2016-08-01 20:26:32.531 DEBUG [138516] [Offsets::LoadNetvars@510] Finished loading Netvars
+2016-08-01 20:26:32.532 DEBUG [138516] [Init@414] Bases and Netvars were loaded and populated!
+2016-08-01 20:26:32.532 DEBUG [138516] [Init@423] Starting threads..
+2016-08-01 20:26:32.532 DEBUG [138516] [LaunchThreads@96] Daemon thread UpdateTick launched.
+2016-08-01 20:26:32.532 DEBUG [141236] [UpdateTick@143] UpdateTick thread started!
+2016-08-01 20:26:32.532 DEBUG [121096] [BSPHandler@14] BSPHandler thread started!
+2016-08-01 20:26:32.532 DEBUG [138516] [LaunchThreads@109] Daemon thread BSPHandler launched.
+2016-08-01 20:26:32.533 DEBUG [121096] [BSPHandler@60] Different map detected! Old Map: No Map Detected | New Map: de_dust2
+2016-08-01 20:26:32.533 DEBUG [138516] [LaunchThreads@121] Daemon thread Triggerbot launched.
+2016-08-01 20:26:32.533 DEBUG [151128] [Triggerbot::Start@948] Triggerbot thread started!
+2016-08-01 20:26:32.533 DEBUG [138516] [LaunchThreads@131] Daemon thread RCS launched.
+2016-08-01 20:26:32.533 DEBUG [78924] [RCS::Start@27] RCS thread started!
+2016-08-01 20:26:32.573 DEBUG [121096] [BSPHandler@70] BSP has loaded with de_dust2 successfully!
+2016-08-01 20:27:03.819 DEBUG [50492] [Init@269] ======= START =======
+2016-08-01 20:27:03.819 DEBUG [50492] [Init@276] Zerowrite Initiated.
+2016-08-01 20:27:03.823 DEBUG [50492] [Init@323] CSGO has been loaded | ProcessID: 11324
+2016-08-01 20:27:03.846 DEBUG [50492] [Init@344] settings.ini was successfully loaded!
+2016-08-01 20:27:03.851 DEBUG [50492] [Init@371] client.dll was detected | Base: 52170000 Size: 50a6000
+2016-08-01 20:27:03.854 DEBUG [50492] [Init@378] engine.dll was detected | Base: 58180000 Size: 8e0000
+2016-08-01 20:27:03.854 DEBUG [50492] [Offsets::Init@17] Initializing Offsets | Signatures
+2016-08-01 20:27:03.939 DEBUG [50492] [Offsets::Init@66] EntityList : 0x4a4fca4
+2016-08-01 20:27:04.020 DEBUG [50492] [Offsets::Init@92] LocalPlayer : 0xa323e4
+2016-08-01 20:27:04.036 DEBUG [50492] [Offsets::Init@122] EnginePtr : 0x5b82b4
+2016-08-01 20:27:04.036 DEBUG [50492] [Offsets::Init@128] Viewangles : 0x4d0c
+2016-08-01 20:27:04.121 DEBUG [50492] [Offsets::Init@150] CrosshairIndex : 0xaa44
+2016-08-01 20:27:04.192 DEBUG [50492] [Offsets::Init@176] Viewmatrix : 0x4a41854
+2016-08-01 20:27:04.278 DEBUG [50492] [Offsets::Init@205] PunchAngles : 0x3018
+2016-08-01 20:27:04.379 DEBUG [50492] [Offsets::Init@228] CanReload : 0x3235
+2016-08-01 20:27:04.486 DEBUG [50492] [Offsets::Init@253] NetvarClasses : 0x52bbfdcc
+2016-08-01 20:27:04.499 DEBUG [50492] [Offsets::Init@273] PlayerInfo : 0x523c
+2016-08-01 20:27:04.582 DEBUG [50492] [Offsets::Init@294] Attack : 0x2e8fcdc
+2016-08-01 20:27:04.656 DEBUG [50492] [Offsets::Init@314] InGameSensitivity : 0xa37bec
+2016-08-01 20:27:04.733 DEBUG [50492] [Offsets::Init@339] MoveType : 0x258
+2016-08-01 20:27:04.811 DEBUG [50492] [Offsets::Init@360] m_pStudioHdr : 0x293c
+2016-08-01 20:27:04.827 DEBUG [50492] [Offsets::Init@376] MapName : 0x284
+2016-08-01 20:27:04.827 DEBUG [50492] [Offsets::Init@396] Game Directory String : 0x2a5f70
+2016-08-01 20:27:04.896 DEBUG [50492] [Offsets::Init@421] CGlobalVars : 0xa26364
+2016-08-01 20:27:04.980 DEBUG [50492] [Offsets::Init@444] m_flFlashBangTime : 0xa2e4
+2016-08-01 20:27:04.980 DEBUG [50492] [Offsets::Init@453] Finished initializing Offsets | Signatures!
+2016-08-01 20:27:04.983 DEBUG [50492] [Offsets::LoadNetvars@464] Starting to Load Netvars
+2016-08-01 20:27:05.015 DEBUG [50492] [Offsets::LoadNetvars@511] Finished loading Netvars
+2016-08-01 20:27:05.016 DEBUG [50492] [Init@395] Bases and Netvars were loaded and populated!
+2016-08-01 20:27:05.016 DEBUG [50492] [Init@404] Starting threads..
+2016-08-01 20:27:05.016 DEBUG [70744] [UpdateTick@137] UpdateTick thread started!
+2016-08-01 20:27:05.016 DEBUG [50492] [LaunchThreads@93] Daemon thread UpdateTick launched.
+2016-08-01 20:27:05.026 DEBUG [79120] [BSPHandler@14] BSPHandler thread started!
+2016-08-01 20:27:05.026 DEBUG [50492] [LaunchThreads@106] Daemon thread BSPHandler launched.
+2016-08-01 20:27:05.026 DEBUG [79120] [BSPHandler@58] Different map detected! Old Map: No Map Detected | New Map: de_dust2
+2016-08-01 20:27:05.026 DEBUG [107612] [Triggerbot::Start@946] Triggerbot thread started!
+2016-08-01 20:27:05.026 DEBUG [50492] [LaunchThreads@120] Daemon thread Triggerbot launched.
+2016-08-01 20:27:05.027 DEBUG [82396] [RCS::Start@27] RCS thread started!
+2016-08-01 20:27:05.027 DEBUG [50492] [LaunchThreads@128] Daemon thread RCS launched.
+2016-08-01 20:27:05.062 DEBUG [79120] [BSPHandler@68] BSP has loaded with de_dust2 successfully!
+2016-08-01 20:27:07.783 DEBUG [50492] [Loop@447] Triggerbot was toggled ON
+2016-08-01 20:27:08.287 DEBUG [50492] [Loop@447] Triggerbot was toggled OFF
+2016-08-01 20:27:09.607 DEBUG [50492] [Loop@447] Triggerbot was toggled ON
+2016-08-01 20:59:55.158 DEBUG [79120] [BSPHandler@58] Different map detected! Old Map: de_dust2 | New Map: de_cbble
+2016-08-01 20:59:55.230 DEBUG [79120] [BSPHandler@68] BSP has loaded with de_cbble successfully!
+2016-08-01 21:11:05.592 DEBUG [50492] [Loop@447] Triggerbot was toggled OFF
+2016-08-01 21:17:37.003 DEBUG [50492] [Loop@447] Triggerbot was toggled ON

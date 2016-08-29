@@ -9,3 +9,14 @@ F:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\obj\Release
 F:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\obj\Release\MazzCrypt.exe
 F:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\obj\Release\MazzCrypt.pdb
 F:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\obj\Release\MazzCrypt.Forms.About.resources
+D:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\bin\Release\MazzCrypt.exe.config
+D:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\obj\Release\MazzCrypt.exe
+D:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\obj\Release\MazzCrypt.pdb
+D:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\bin\Release\MazzCrypt.exe
+D:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\bin\Release\MazzCrypt.pdb
+D:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\obj\Release\MazzCrypt.csprojResolveAssemblyReference.cache
+D:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\obj\Release\MazzCrypt.Forms.About.resources
+D:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\obj\Release\MazzCrypt.Form1.resources
+D:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\obj\Release\MazzCrypt.Properties.Resources.resources
+D:\Dropbox\Fullsail Backup\Experiments\MazzCrypt\MazzCrypt\MazzCrypt\obj\Release\MazzCrypt.csproj.GenerateResource.Cache

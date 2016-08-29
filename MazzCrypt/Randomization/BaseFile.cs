@@ -82,6 +82,12 @@ namespace MazzCrypt.Randomization
                 {
                     string literal = ToLiteral(fileData.Substring(cursor + 1, currentCursor - cursor - 1));
 
+                    if (literal == "Failed")
+                    {
+                        MessageBox.Show("Error at cursor position: " + currentCursor.ToString());
+                        return;
+                    }
+
                     if (!escapeString)
                     {
                         cursor = currentCursor + 1;
@@ -237,7 +243,7 @@ namespace MazzCrypt.Randomization
                                     fromStack = GetFromStack("swap_lines");
                                     string str6 = fileData.Substring(fromStack.pos, cursor - fromStack.pos);
 
-                                    string[] newLine = new string[] { Environment.NewLine };
+                                    string[] newLine = new string[] { "\n" };
                                     string[] strArrays1 = str6.Split(newLine, StringSplitOptions.None);
                                     string[] strArrays2 = new string[(int)strArrays1.Length - 2];
 
@@ -268,7 +274,7 @@ namespace MazzCrypt.Randomization
 
             if (Match(";"))
             {
-                int num6 = fileData.IndexOf(Environment.NewLine, cursor + 1);
+                int num6 = fileData.IndexOf("\n", cursor + 1);
                 if (junkEnabled)
                 {
                     cursor = num6 + 1;
@@ -295,6 +301,9 @@ namespace MazzCrypt.Randomization
 
         protected bool Match(string str)
         {
+            if (cursor >= fileData.Count())
+                return false;
+
             for (int i = 0; i < str.Length; i++)
             {
                 if (fileData[cursor + i] != str[i])
@@ -387,10 +396,18 @@ namespace MazzCrypt.Randomization
                 GenerateInMemory = true
             };
 
-            string[] strArrays = new string[] { string.Concat("\r\n            namespace tmp\r\n            {\r\n                public class tmpClass\r\n                {\r\n                    public static string GetValue()\r\n                    {\r\n                            return \"", input, "\";\r\n                    }\r\n                }\r\n            }") };
-            Assembly compiledAssembly = cSharpCodeProvider.CompileAssemblyFromSource(compilerParameter, strArrays).CompiledAssembly;
-            MethodInfo method = compiledAssembly.GetType("tmp.tmpClass").GetMethod("GetValue");
-            return method.Invoke(null, null) as string;
+            try
+            {
+                string[] strArrays = new string[] { string.Concat("\r\n            namespace tmp\r\n            {\r\n                public class tmpClass\r\n                {\r\n                    public static string GetValue()\r\n                    {\r\n                            return \"", input, "\";\r\n                    }\r\n                }\r\n            }") };
+                Assembly compiledAssembly = cSharpCodeProvider.CompileAssemblyFromSource(compilerParameter, strArrays).CompiledAssembly;
+                MethodInfo method = compiledAssembly.GetType("tmp.tmpClass").GetMethod("GetValue");
+                return method.Invoke(null, null) as string;
+            }
+            catch(Exception x)
+            {
+                MessageBox.Show(x.Message, "Failed");
+                return "Failed";
+            }
         }
     }
 }

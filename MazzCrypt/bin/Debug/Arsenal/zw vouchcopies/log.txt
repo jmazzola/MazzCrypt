@@ -1,0 +1,36 @@
+﻿2016-06-29 23:46:40.119 DEBUG [15484] [Init@283] ======= START =======
+2016-06-29 23:46:40.120 DEBUG [15484] [Init@288] Zerowrite Initiated.
+2016-06-29 23:46:40.124 DEBUG [15484] [Init@334] CSGO has been loaded | ProcessID: 564
+2016-06-29 23:46:40.129 DEBUG [15484] [Init@353] settings.ini was successfully loaded!
+2016-06-29 23:46:40.134 DEBUG [15484] [Init@379] client.dll was detected | Base: 1c0d0000 Size: 50a5000
+2016-06-29 23:46:40.137 DEBUG [15484] [Init@386] engine.dll was detected | Base: f450000 Size: 8de000
+2016-06-29 23:46:40.137 DEBUG [15484] [Offsets::Init@17] Initializing Offsets | Signatures
+2016-06-29 23:46:40.137 DEBUG [15484] [Offsets::Init@69] Finished initializing Offsets | Signatures!
+2016-06-29 23:46:40.140 DEBUG [15484] [Offsets::LoadNetvars@80] Starting to Load Netvars
+2016-06-29 23:46:40.141 DEBUG [15484] [Offsets::LoadNetvars@137] Finished loading Netvars
+2016-06-29 23:46:40.141 DEBUG [15484] [Init@405] Bases and Netvars were loaded and populated!
+2016-06-29 23:46:40.141 DEBUG [15484] [Init@414] Starting threads..
+2016-06-29 23:46:40.141 DEBUG [9280] [UpdateTick@145] UpdateTick thread started!
+2016-06-29 23:46:40.141 DEBUG [15484] [LaunchThreads@98] Daemon thread UpdateTick launched.
+2016-06-29 23:46:40.141 DEBUG [7680] [BSPHandler@14] BSPHandler thread started!
+2016-06-29 23:46:40.142 DEBUG [15484] [LaunchThreads@112] Daemon thread BSPHandler launched.
+2016-06-29 23:46:40.142 DEBUG [13072] [Triggerbot::Start@954] Triggerbot thread started!
+2016-06-29 23:46:40.142 DEBUG [15484] [LaunchThreads@123] Daemon thread Triggerbot launched.
+2016-06-29 23:46:40.142 DEBUG [7940] [RCS::Start@27] RCS thread started!
+2016-06-29 23:46:40.142 DEBUG [15484] [LaunchThreads@133] Daemon thread RCS launched.
+2016-06-29 23:47:17.511 DEBUG [9280] [UpdateTick@238] Hashes in settings.ini was found to be changed! Old Hash: ERROR | New Hash: 56495710049495710098100991025354514897100565756575551555355101539855100
+2016-06-29 23:47:17.546 DEBUG [9280] [UpdateTick@245] The new settings.ini successfully loaded and changed
+2016-06-29 23:47:20.142 DEBUG [7680] [BSPHandler@59] Different map detected! Old Map: No Map Detected | New Map: aim_ag_texture2
+2016-06-29 23:47:20.157 DEBUG [7680] [BSPHandler@70] BSP has loaded with aim_ag_texture2 successfully!
+2016-06-29 23:48:38.739 DEBUG [9280] [UpdateTick@238] Hashes in settings.ini was found to be changed! Old Hash: 56495710049495710098100991025354514897100565756575551555355101539855100 | New Hash: ERROR
+2016-06-29 23:48:38.768 DEBUG [9280] [UpdateTick@245] The new settings.ini successfully loaded and changed
+2016-06-29 23:49:08.901 DEBUG [9280] [UpdateTick@238] Hashes in settings.ini was found to be changed! Old Hash: 56495710049495710098100991025354514897100565756575551555355101539855100 | New Hash: ERROR
+2016-06-29 23:49:08.912 DEBUG [9280] [UpdateTick@245] The new settings.ini successfully loaded and changed
+2016-06-29 23:49:08.916 DEBUG [9280] [UpdateTick@238] Hashes in settings.ini was found to be changed! Old Hash: ERROR | New Hash: 101995510252555410010153102511005649102519810050974851101515210051535555102
+2016-06-29 23:49:08.946 DEBUG [9280] [UpdateTick@245] The new settings.ini successfully loaded and changed
+2016-06-29 23:49:58.761 DEBUG [9280] [UpdateTick@238] Hashes in settings.ini was found to be changed! Old Hash: 101995510252555410010153102511005649102519810050974851101515210051535555102 | New Hash: ERROR
+2016-06-29 23:49:58.764 DEBUG [9280] [UpdateTick@245] The new settings.ini successfully loaded and changed
+2016-06-29 23:49:58.767 DEBUG [9280] [UpdateTick@238] Hashes in settings.ini was found to be changed! Old Hash: ERROR | New Hash: 1005755489710097995798555210099100505053535355995357101535510199484855
+2016-06-29 23:49:58.791 DEBUG [9280] [UpdateTick@245] The new settings.ini successfully loaded and changed
+2016-06-29 23:53:00.169 DEBUG [7680] [BSPHandler@59] Different map detected! Old Map: aim_ag_texture2 | New Map: de_cache
+2016-06-29 23:53:00.298 DEBUG [7680] [BSPHandler@70] BSP has loaded with de_cache successfully!

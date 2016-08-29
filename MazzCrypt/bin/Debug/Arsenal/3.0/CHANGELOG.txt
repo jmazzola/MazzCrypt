@@ -1,0 +1,445 @@
+SmurfStomper External 3.0 Changelog
+--------------------------------------
+[3/19/2016 - Let there be features and sexiness]
+
+	-GENERAL-
+	* Updated version to 3.0
+	* Added DirectX Overlay [!] [THIS DOES NOT WORK FULLSCREEN. IT'S AN OVERLAY. YOU CANNOT HAVE A FULLSCREEN NON-WINDOWED OVERLAY. IT'S IMPOSSIBLE. SORRY. WAIT FOR INTERNAL VERSION? ] [!]
+	* Signature is completely different now. SO MUCH CODE CHANGED.
+	* Security is completely redone again due to the significant change in code
+
+	-CONSOLE MENU-
+	* Removed and replaced with actual in-game menu
+
+	-SETTINGS.INI-
+	* Added esp options
+
+	-GLOW-
+	* Optimized more
+	* Fixed bug where if visibility AND health was off, it'd still show visibility.
+	* Added max distance to allow more customization in how legit the ESP can be
+
+	-SUBTLE AIMBOT-
+	* Optimized more
+	
+	-AIMLOCK-
+	* Optimized more
+	* Added method of Lowest HP
+
+	-CHATSPAM-
+	* Fixed a bug where custom chat didn't work (thanks Diz)
+
+	-OVERLAY-
+	* Added Menu
+	* Added ESP
+
+	-MENU-
+	* Added GlowESP Options
+	* Added Subtle Aimbot Options
+	* Added Aimlock Options
+	* Added Misc Options
+	* Added ESP Options
+	* Added Save/Load feature
+
+	-ESP-
+	* Added boxes
+	* Added health bars (left and right)
+	* Added distance
+	* Added names
+	* Added snaplines
+	* Added visibility check
+	* Added target weapon
+	* Added rank/wins
+
+	-MATCHMAKING DUMPER-
+	* Removed since there's rank/wins ESP now.
+
+	-KNOWN BUGS: CHEAT FUNCTIONALITY-
+	* Toggles for hotkeys are STILL LAGGY/SLOW.
+		Workaround: Use the sexy brand-spanking new menu
+
+	* ESP boxes for 'Everyone' will make a ghosted box and fuck up
+
+	* ESP Snaplines ghost in the top left of the screen for some reason.
+
+	* Visibility is laggy/outdated
+		Workaround: This will be fixed when BSP tree map analyzing will be implemented
+
+	-KNOWN BUGS: MENU-
+	* Doesn't draw elements on top of each other. Comboboxes (dropdowns) will fuck up if they're over text
+	* The description text at the bottom never resets to empty when not hovering on a menu element. 
+
+	-SHIT THAT I'LL ADD LATER AND OR EVENTUALLY-
+	* Resizing window size will give the overlay the correct dimensions (using a thread to monitor game's window size)
+	* Optimization to prevent FPS drops
+	* Menu will be draggable
+	* Fully customizable menu with colors/themes
+	* Fully customizable weapon settings for Subtle Aimbot and Aimlock
+	* Fully customizable colors for ESP
+	* Setting Hotkeys
+	* Allowing Transparency/Opacity on the Overlay (harder than it sounds)
+
+[3/9/2016 - Wut]
+
+	-GENERAL-
+	* Updated version to 2.9d
+	* Removed hidden WinAPI calls due to unpredictable behavior and bugs across OSes.
+	
+	-BHOP-
+	* Improved timing/speed in noticing player is in air
+
+	-SUBTLE AIMBOT-
+	* Added 'intelligent aim' - Using the min/max chances it will aim at the chest/neck after firing
+	* Added 'jumpcheck' - Check if target is jumping/in-air, if so don't aim at
+	* Added 'randompos' - Have your aimspot randomized so the aim at position isn't 100% the same every time.
+
+	-AIMLOCK-
+	* Added 'jumpcheck' - Check if target is jumping/in-air, if so don't aim at
+
+	-SETTINGS.INI-
+	* Added [intelligentaim] for subtleaimbot
+	* Added [jumpcheck] for subtleaimbot and aimlock
+	
+	-GLOW-
+	* Fixed friendly visibility check
+	* Unswapped visible check colors
+
+	-KNOWN BUGS-
+	* Sometimes the cheat won't recognize your key presses and a feature won't toggle. 
+		Workaround: Keep pressing until it works. This will be fixed when a DirectX Menu/WinProc is implemented [be patient kthx]
+
+	* Matchmaking dumper will not show your name properly/mix up friendly/enemy names
+		Workaround: Don't use it, or use common sense to connect two and two together until I fix it.
+
+
+[3/6/2016 - Upkeep & Lags]
+test
+
+	-GENERAL-
+	* Updated Version to 2.9c
+	* Added crashdumps. Whenever the cheat crashes, a message box will pop up prompting the user to contact me to fix this issue with a detailed file where the crash happens
+	* Added fakelag
+	* Changed bitflags to apply for more features
+
+	-FAKELAG-
+	* Added packet adjustment
+
+	-SUBTLE AIMBOT-
+	* Added ragemode
+
+	-MENU-
+	* Added fakelag status
+
+	-SETTINGS.INI-
+	* Added fakelag options
+	* Added rage modes for both aimbots
+
+	-KNOWN BUGS-
+	* Sometimes the cheat won't recognize your key presses and a feature won't toggle. 
+		Workaround: Keep pressing until it works. This will be fixed when a DirectX Menu/WinProc is implemented [be patient kthx]
+
+	* Matchmaking dumper will not show your name properly/mix up friendly/enemy names
+		Workaround: Don't use it, or use common sense to connect two and two together until I fix it.
+
+
+[3/2/2016 - Security & Tweaks]
+
+	-GENERAL-
+	* Updated Version to 2.9b Hotfix 1
+	* Added techniques viruses use to hide WINAPI calls to make reverse engineering more tricky.
+	* Added functionality for anti-aim (however not implemented)
+	
+	-AIMLOCK-
+	* Made lockon smoother if a target isn't moving.
+	* Added functionality for silent aim (however not implemented)
+
+	-BHOP-
+	* Made it not possible to BHOP if space is held and CSGO isn't the active window.
+
+	-CHATSPAM-
+	* Cleaned up memory leak/open handles when executed
+
+	-KNOWN BUGS-
+	* Sometimes the cheat won't recognize your key presses and a feature won't toggle. 
+		Workaround: Keep pressing until it works. This will be fixed when a DirectX Menu/WinProc is implemented [be patient kthx]
+
+	* Matchmaking dumper will not show your name properly/mix up friendly/enemy names
+		Workaround: Don't use it, or use common sense to connect two and two together until I fix it.
+
+[2/24/2016 - Memes and Bugfixes]
+
+	-GENERAL-
+	* Changed method of retreiving and checking bone positions
+	* Updated version to 2.9b
+	* Optimized every feature of the cheat to use ~100 less read/writes every second. Should lower CPU usage even more~
+	* Updated cheat threads to use C++14 multithreading capabilities
+	* Updated class IDs to latest ones
+
+	-MENU-
+	* Added Chatspam status
+
+	-SETTINGS.INI-
+	* The minimum/maximum of what FOV to use for the aimlock is from 0.1 - 360 now.
+	* Implemented minimum/maximum clamps to prevent stupid users from crashing the cheat and complaining to me about it.
+	* Changed descriptions
+
+	-GLOW-
+	* Optimized speeds with visible checks
+
+	-AIMLOCK-
+	* [!] FIXED INVISIBLE ENTITY BUG - FINALLY!! [!]
+	* Implement realistic/correct FOV checks using actual angles. Minimum FOV is 0.1. Maximum is 360.
+	* Re-enabled aim methods. 0 = Closest To Crosshair, 1 = Closest to Player
+	* Added 'ragemode' to not consider FOV at all, meaning the first player detected via aim method will be aimlocked on.
+
+	-CHATSPAM-
+	* Added chatspam
+	* Added custom interval
+	* Added custom chat via parsing files and editing on the fly
+	
+	-KNOWN BUGS-
+	* Sometimes the cheat won't recognize your key presses and a feature won't toggle. 
+		Workaround: Keep pressing until it works.
+
+
+
+[2/18/2016 - NEW OPERATION HYPE]
+	-GENERAL-
+	* Changed version to 2.9a
+	* Fixed Viewmatrix signature (we'll see next update if it breaks again)
+	* Added Bowie Knife in knife checks
+
+[2/15/2016]
+
+	-GENERAL-
+	* Changed version to 2.9
+	* Added GlobalVars structure and signature
+
+	-MENU-
+	* Redid the console menu again to show status to every cheat's status
+
+	-SETTINGS.INI-
+	* Renamed 'actualaimbot' to 'aimlock' to minimize confusion
+	* Every cheat now has a 'defaultSetting' to allow for cheats to be automatically loaded
+	* Every cheat now has 'canToggle' to allow for cheat functionality to be able to be toggled
+	* Added colors section to allow for custom colors
+	* Added ability to use hex code for colors (easier customization)
+
+	* [glow]
+	* "bombInfo" - on = Override custom colors to show if bomb is able to be defused | off = Use custom colors
+
+	* [bhop]
+	* "key" - key to toggle autobhop
+
+	-BHOP-
+	* Added ability to toggle ability to autobhop
+
+	-AIMLOCK-
+	* Added ability to toggle ability to aimlock
+
+	-GLOW-
+	* Redid structure to be optimized with vectors
+	* Added custom colors for visible/nonvisible enemies and teammates, weapons, grenades, bombs, chickens
+	* Added feature to show if a bomb is able to be defused [green = defusable w/o kit | blue = defusable only with kit | red = run]
+
+
+[2/13/2016 - Smoothness and full control~]
+
+	-GENERAL-
+	* Disabled QuickEdit mode on Windows 10 to stop threads from getting race conditions/stopping threads.
+	* Updated the version to 2.8c
+	* When CSGO is closed/not a process anymore, the cheat is automatically closed/deleted safely
+
+	-MENU-
+	* Only show keys for cheats that they have activated. 
+
+	* Shows the user what key will abruptly end the cheat 'panic'
+
+	--SETTINGS.INI-
+	* Reordered settings to be in the same order as the menu for minimal confusion
+	* Renamed the variable to have specific toggle cheats with 'canToggle'
+		For Example: If a user has [glow] canToggle=off. That user does not have glow cheat functionality or the abiiity to toggle it
+
+	* Renamed held key cheats functionality with 'activated'
+		For Example: If a user has [actualaimbot] activated=off. That user cannot use the aimbot functionality by holding the set key
+
+	* Added Bhop section
+
+	* [glow] 
+	*	"visibleCheck" - Show visible/invisible targets
+	*	"notvisible_enemy_color_r" - Red value for invisible enemies
+	*	"notvisible_enemy_color_g" - Green value for invisible enemies
+	*	"notvisible_enemy_color_b" - Blue value for invisible enemies
+	*	"notvisible_enemy_color_a" - Alpha value for invisible enemies
+	*	"notvisible_teammate_color_r" - Red value for invisible teammates
+	*	"notvisible_teammate_color_g" - Green value for invisible teammates
+	*	"notvisible_teammate_color_b" - Blue value for invisible teammates
+	*	"notvisible_teammate_color_a" - Alpha value for invisible teammates
+
+	* [subtleaimbot]
+	*	"visibleCheck" - Aim at only visible targets
+	*	"smoothFactor" - The SMALLER the number, the quicker it locks on. The LARGER the number, the slower/smoother it locks on
+
+	* [actual aimbot]
+	*	"visibleCheck" - Aim at only visible targets
+	*	"smoothFactor" - The SMALLER the number, the quicker it locks on. The LARGER the number, the slower/smoother it locks on
+
+	-BHOP-
+	* Added feature to disable bhopping completely
+
+	-ACTUAL AIMBOT-
+	* Added velocity compensation to targets being locked on.
+	* Added paranoia check for the smooth amount to prevent untrusted angles
+	* Added paranoia check for the bone positions to prevent invisible entities
+	* Added check to aim at only visible targets
+	* Redid smoothing logic. The smaller the smoothFactor, the faster the aimbot is. The larger, the smoother it is.
+
+	-SUBTLE AIMBOT-
+	* Added paranoia check for the smooth amount to prevent untrusted angles
+	* Added check to aim at only visible targets
+	* Redid smoothing logic. The smaller the smoothFactor, the faster the aimbot is. The larger, the smoother it is.
+
+	-GLOW-
+	* Added check to show visible targets
+	* Added colors for invisible teammates and enemies
+
+	-KNOWN BUGS-
+	* The player will jump if Space is pushed while in the steam overlay or when the console is up
+	* [!] Locks on invisible entities at times. [Really don't know what the fuck is going on here.. >.>] [!]
+
+
+[2/11/2016 - FUCK YOU MEMORY LEAKS]
+	-GENERAL-
+	* Fixed all memory leaks [less CPU usage and much faster speeds]
+	* Refactored classes to be properly created in memory
+	* Refactored threads to be created/joined properly
+	* Signature has been changed dramatically
+
+	-MENU-
+	* Shows version of cheat underneath the fancy ASCII art
+
+	-ACTUAL AIMBOT-
+	* Fixed bug of large FOV creating invisible entities now that every thread is handled properly. 
+	  However. If your FPS drops below 50 this can create complications
+
+	-GLOW-
+	* Fixed bug of flashed entities not being white due to shitty logic
+	* Fixed bug of defusing entities not being purple due to shitty logic
+
+	-KNOWN BUGS-
+	* The player will jump if Space is pushed while in the steam overlay or when the console is up
+	
+
+[2/8/2016 - MAJOR UPDATE - COMPLETELY REDONE LOGIC AND ADDED GOODIES]
+
+	-GENERAL- 
+	* Fixed bug where if the user was to start the program before in game would give invalid offsets
+	* Scans netvars before running cheating threads (when you press Insert)
+	* Changed signature to 99% different each generated build
+
+	-SETTINGS.INI-
+	* Made it super sexy and pretty ;3
+	* Added string input for keys. Using the Source Engine key names will automagically interpret the VK_KEY code from the string given
+	* Added string input for bones.
+	* Renamed every setting for easy user interaction/understanding
+	* Added new features as they will stated below
+
+	-MENU-
+	* Shows actual key bindings
+	* Shows what type of target each cheat is associated with neatly
+
+	-BHOP-
+	* Fixed bug where the player would jump upon starting the cheat threads
+
+	-ACTUAL AIMBOT-
+	* Added ability to change the TargetType. Able to aim at friendlies, teammates or just everyone
+	* Fixed a bone traverse bug that only used the rifle bone to aim at
+
+	-SUBTLE AIMBOT-
+	* Added ability to change the TargetType. Able to aim at friendlies, teammates or just everyone
+
+	-GLOW ESP-
+	* Added ability to glow chickens
+	* Added ability to show TargetType. Able to glow friendlies, teammates or just everyone
+	* Added a new health color health system using a lerp algorithm
+	* Fixed bug where if glow was on and the process was ended, the weapons would still be glowing
+
+	-KNOWN BUGS-
+	* [!] The actual aimbot will lock on an invisible entity if the FOVRadius is anything higher than 180 [!]
+	* The player will jump if Space is pushed while in the steam overlay or when the console is up
+	
+
+[2/2/2016]
+
+	-SETTINGS.INI-
+	* Perfect RCS on Actual Aimbot is now 2.0 rcsScale
+	* Removed triggerbot, radar and RCS. Those will never be added. Ever.
+
+	-ACTUAL AIMBOT-
+	* Finally fixed mid-spray bone lockon with RCS
+
+
+[1/18/2016 - MAJOR UPDATE - NEARING THE END OF SMURFSTOMPER]
+
+	-GENERAL-
+	* Added security and optimized finding dynamic offsets
+
+	-SETTINGS.INI-
+	* Changed layout so you will have to use the new one given
+
+	-MENU-
+	* Only added status of 'toggles'. Aimbot and Bhop are automatic
+	
+	-BHOP-
+	* Added functionality to not jump when the mouse cursor is visible (chat or main menu)
+
+	-SUBTLE AIMBOT-
+	* Added unable to aimbot when the player has spawn protection
+	* Optimized to shit
+
+	-ACTUAL AIMBOT-
+	* Fixed bug where the next player to be locked on only happened when the player changed angles.
+	* Added unable to aimbot when the player has spawn protection
+	* Fixed bug where accruracy was affected due to the RCS not being mid-spray
+	* Optimized actual aimbot
+	* Added an aim method where the aimbot will look for the closest player
+	* Fixed actual aimbot to be multithreaded properly
+
+	-KNOWN BUGS-
+	* Keys shown in the 'menu' are wrong.
+	* The player will jump if Space is pushed while in the steam overlay or when the console is up.
+=================================
+[1/5/2016]
+* Added Bhop when holding space. [You're welcome Diz, you loveable pain the ass.]
+* Added Jump/Forward signatures
+* Refactored/Optimized Glow ESP
+* Refactored/Optimized Actual Aimbot
+* Sped up thread wait times for quicker responses
+
+[12/09/2015]
+* Added Revolver Pistol Check
+* Fixed new SignOnState offset
+
+[11/13/2015]
+* Added new Glow Signature
+* Fixed new Glow struct
+
+[11/4/2015]
+* Added Shadow Daggers Knife Check
+
+[10/20/2015]
+* Added dynamic bone matrix offset to prevent Valve breaking my bone-based aimbots ever again.
+
+[9/25/2015]
+* Added Netvars (now every fucking update will be able to grab ALL the network variables from the fucking table in the game. AKA: 1337 fucking shit)
+* Fixed RCS factor not being taken account of when using the actual aimbot
+* Added a signature for punch vectors
+* Fixed annoying issue where your angles would look in the sky, walls and floor.
+
+[9/20/2015]
+* Added an actual lock-on aimbot that takes in account your FOV. For now, it only checks the closest player to your crosshair
+* Fixed subtle-aimbot 100%. It should work fine with pistols and rifles.
+* All offsets have been updated to the correct thing.
+* Bones updated to the new bones in update. (look at .ini for the bones to use)
+ 
+--------------------------------------

@@ -1,0 +1,206 @@
+                           __     _                                  
+ ___ _ __ ___  _   _ _ __ / _|___| |_ ___  _ __ ___  _ __   ___ _ __ 
+/ __| '_ ` _ \| | | | '__| |_/ __| __/ _ \| '_ ` _ \| '_ \ / _ \ '__|
+\__ \ | | | | | |_| | |  |  _\__ \ || (_) | | | | | | |_) |  __/ |   
+|___/_| |_| |_|\__,_|_|  |_| |___/\__\___/|_| |_| |_| .__/ \___|_|   
+                                                    |_|              
+
+						 ____   ___  _     
+						|___ \ / _ \| |__  
+						  __) | (_) | '_ \ 
+						 / __/ \__, | |_) |
+						|_____(_)/_/|_.__/ 
+									                   		
+
+			    _         _             _       _ 
+			   | |_ _   _| |_ ___  _ __(_) __ _| |
+			   | __| | | | __/ _ \| '__| |/ _` | |
+			   | |_| |_| | || (_) | |  | | (_| | |
+			    \__|\__,_|\__\___/|_|  |_|\__,_|_|
+			                                    
+				Coded and written by ChocolatePC
+
+| ==========================================================================
+|  _       _                 _            _   _             
+| (_)_ __ | |_ _ __ ___   __| |_   _  ___| |_(_) ___  _ __  
+| | | '_ \| __| '__/ _ \ / _` | | | |/ __| __| |/ _ \| '_ \ 
+| | | | | | |_| | | (_) | (_| | |_| | (__| |_| | (_) | | | |
+| |_|_| |_|\__|_|  \___/ \__,_|\__,_|\___|\__|_|\___/|_| |_|
+
+| ==========================================================================
+
+Hello and thank you for your donation to SmurfStomper!
+
+This cheat works a bit differently than most on-the-market cheats and requires you to follow some basic instructions.
+
+You should have gotten several files (not including this one) within this purchase.
+
+*	cleanEvidence.bat
+*	settings.ini
+*	chat.txt
+*	.exe's with random names
+*	CHANGELOG.txt	(Just developer notes of the current version you have)
+
+If you don't have one or more of the following please contact [email here] and we'll get you situated right away!
+
+First you must have the Visual Studio 2015 VC Redistributables. If you've played a game on the PC you're going to cheat on in the last few months in 2016,
+you'll most likely have them. However if you want to be safe, please download them here: https://www.microsoft.com/en-us/download/details.aspx?id=48145
+
+| ==========================================================================
+|       _                             _     _                       _           _   
+|   ___| | ___  __ _ _ __   _____   _(_) __| | ___ _ __   ___ ___  | |__   __ _| |_ 
+|  / __| |/ _ \/ _` | '_ \ / _ \ \ / / |/ _` |/ _ \ '_ \ / __/ _ \ | '_ \ / _` | __|
+| | (__| |  __/ (_| | | | |  __/\ V /| | (_| |  __/ | | | (_|  __/_| |_) | (_| | |_ 
+|  \___|_|\___|\__,_|_| |_|\___| \_/ |_|\__,_|\___|_| |_|\___\___(_)_.__/ \__,_|\__|
+| 
+| ===========================================================================
+
+Now that that's fine, go ahead and right click on cleanEvidence.bat and pick Edit. This should open the .bat in Notepad.
+
+No, this is not a virus. What this file does is the following (in order):
+ 
+*	Kills Counter-Strike: Global Offensive and the Steam Client
+*	Deletes all registry information about Steam and the Steam Client (Precautionary measure)
+*	Deletes the Steam Config folder (This will erase all the shared accounts/PCs)
+*	Erase USN Journals on all drives (VAC3 uses this to see what has run on your computer)
+*	Flush DNS (VAC3 actually may check what sites you've visited upon starting the Steam Client)
+*	Renew your IP (VAC3 does infact check information about IP and MAC address, this is just in case)
+*	Restart your computer (This is to apply the deleted registries and clean the USN journals effective)
+
+Please check the paths and ensure they are correct. If you have not installed Steam on the C: drive, please change it accordingly.
+Please also check that the drives listed next to 'deletejournal' are the same drives that you're using to run the cheat.
+
+You will run this .bat everytime you want to go back to a main account and are done cheating. 
+This is done incase if VAC or Valve decided to try to link your IP with a VAC ban.
+
+If you are running Windows 10 you will have to do the following:
+
+(If you don't have Windows 10: you can just double click the .bat and can skip to the next segment.)
+
+1.	Hold the Windows key and press X. A menu should popup
+2.	Click on "Command Prompt (Admin)". It needs to be the one with (Admin).
+3.	type 'cd '
+4.	Following that, in quotes put the directory of where you've extracted the contents of this .zip into. Press Enter.
+5.	If you're in the correct directory if you type 'clean' and press Tab, you should see it auto-complete cleanEvidence.bat
+5a.	If you don't see this, go back to step 3
+6.	Press Enter. This will run the .bat.
+
+| ===========================================================================
+|           _   _   _                   _       _ 
+|  ___  ___| |_| |_(_)_ __   __ _ ___  (_)_ __ (_)
+| / __|/ _ \ __| __| | '_ \ / _` / __| | | '_ \| |
+| \__ \  __/ |_| |_| | | | | (_| \__ \_| | | | | |
+| |___/\___|\__|\__|_|_| |_|\__, |___(_)_|_| |_|_|
+|                           |___/                
+| ===========================================================================
+
+So now that we know how to 'clean our evidence', go ahead and right click on settings.ini and pick Edit. This should open the .ini in Notepad.
+
+This file is your control-panel. This file is the file that holds all of your custom options for the cheat.
+Keys, values, colors, you name it, it's here.
+
+Anything in this file that has a ';' before it is rendered useless, it's a comment.
+
+1. Go to the 'keys' section and follow the instructions to set your 'hotkeys' for the cheat. If not, you can use my personal defaults. 
+
+2. Get yourself familiar with this file because this is where you can actually open/edit settings ON-THE-FLY!
+
+Yes, you can have the cheat running, open this file, edit something and then save. It will automatically use the new settings given!
+How cool is that?
+
+Now to explain the cheat functionality.
+
+3. If you see 'canToggle' under any of the cheat sections, this will allow you to use the key for the cheats from Step 1 to toggle on and off.
+
+If canToggle is set to 'off', it will not be activated/be able to be used in the cheat entirely. 
+
+For example: If you don't want to use the aimlock at all, you can set the 'canToggle' below [aimlock] to off.
+
+I suggest going into a private match to test out all of your settings to make sure they're as legit or as blatant as you want them to be.
+
+| ===========================================================================
+|       _           _    _        _   
+|   ___| |__   __ _| |_ | |___  _| |_ 
+|  / __| '_ \ / _` | __|| __\ \/ | __|
+| | (__| | | | (_| | |_ | |_ >  <| |_ 
+|  \___|_| |_|\__,_|\__(_\__/_/\_\\__|
+|                                                
+| ===========================================================================
+
+This is exactly what it looks like. 
+
+This is a file used with SmurfStomper's chatspamming feature. If you go to your settings.ini and set your [spamtype] option of the [chatspam] 
+feature to 1. 
+
+You can on-the-fly edit that .txt to say whatever you like in chat. The option [randomparse] will determine if you want it to spam in order
+or randomly. 
+
+Have fun :3
+
+| ===========================================================================
+|     ___ __  __ ___  ___ 
+|    / _ \\ \/ // _ \/ __|
+|  _|  __/ >  <|  __/\__ \
+| (_)\___|/_/\_\\___||___/
+|                         
+| ===========================================================================
+
+Finally we can get on with it and cheat.
+
+You'll realize that you've gotten quite a bit of .exes. The truth is that you've actually got the same exact cheat.
+However every .exe is 99% different than the previous one generated.
+
+You see VAC3 works by checking to see how similar .exe's caught by it's system is. That's the secret as to why 
+SmurfStomper has been 'fully undetected' since the beginning.
+
+So in order to stay undetected, every 2-3 matches you play. Press the END key to safely delete/wipe any trace of the cheat
+and open a new one.
+
+In the case that you DO get detected and VAC banned, the only thing VAC will have in it's database was that particular .exe.
+Making a new account and running a different .exe will have you completely undetected again :P
+
+I recommend running every .exe as Administrator. You can do that by right clicking any of the .exe's and click "Run As Administrator".
+
+| ===========================================================================
+|                       _           _             
+|   ___ ___  _ __   ___| |_   _ ___(_) ___  _ __  
+|  / __/ _ \| '_ \ / __| | | | / __| |/ _ \| '_ \ 
+| | (_| (_) | | | | (__| | |_| \__ \ | (_) | | | |
+|  \___\___/|_| |_|\___|_|\__,_|___/_|\___/|_| |_|
+| 
+| ===========================================================================
+
+That about wraps up how and what SmurfStomper is!
+
+If you have any questions, please feel free to contact me at [email here].
+
+If you have been VAC banned several times and have followed the instructions of using new ones every 2-3 matches. PLEASE contact me.
+
+Finally, here's some statements to save my ass:
+
+-------------------------------------------------------------------------------
+SmurfStomper is not a product of Steam or Valve's product of Counter-Strike:
+Global Offensive.
+
+SmurfStomper and ChocolatePC is not responsible for players on Steam playing 
+Counter-Strike: Global Offensive getting game banned or VAC banned.
+
+The user using this cheat is fully responsible upon execution of the tool. 
+
+If a user has been limited to trading and items are locked on their account, 
+SmurfStomper and ChocolatePC does not owe the user the total of money the items
+lost add up to, nor do they owe the cost of the game of Counter-Strike:
+Global Offensive. 
+
+If a user feels as though an executable infected their computer with a virus,
+it is not SmurfStomper or ChocolatePC that has caused said infection.
+SmurfStomper does not do anything other than allow debug privileges upon
+execution, read and write process memory to csgo.exe and it's modules as
+well as read from settings.ini.
+
+If a user has NOT received a copy from ChocolatePC in forms of a 'crack' or
+'leak', ChocolatePC and SmurfStomper is not responsible to any malicious intent
+that download or executable entails.
+-------------------------------------------------------------------------------
+
+<3 ChocolatePC 
